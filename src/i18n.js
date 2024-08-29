@@ -9,10 +9,10 @@ i18n
     fallbackLng: 'fr', // Langue par défaut
     lng: 'fr', // Langue initiale
     backend: {
-      loadPath: '/locales/{{lng}}/{{ns}}.json', // Chemin pour charger les fichiers de traduction
+      loadPath: 'locales/{{lng}}/{{ns}}.json', // Chemin pour charger les fichiers de traduction
     },
-    ns: ['common'], // Namespaces par défaut
-    defaultNS: 'common', // Namespace par défaut
+    ns: ['home'], // Namespaces par défaut
+    defaultNS: 'home', // Namespace par défaut
     interpolation: {
       escapeValue: false, // React déjà gère l'échappement XSS
     },
