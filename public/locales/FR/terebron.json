@@ -10,7 +10,8 @@
     "documents" : [
         {
         "type": "link",
-        "url" : "https://store.steampowered.com/app/1654230/Terebron"
+        "url" : "https://store.steampowered.com/app/1654230/Terebron",
+        "label": "Page Steam du jeu"
         }
     ],
     "content": [

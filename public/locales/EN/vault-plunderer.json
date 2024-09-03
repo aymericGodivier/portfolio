@@ -1,8 +1,8 @@
 {
-    "title": "Terebron",
-    "subtitle" : "A puzzle game with lasers and mirrors",
-    "category": "Puzzle",
-    "role" : "Game Designer/Level Designer/UX Designer",
+    "title": "Vault Plunderer",
+    "subtitle" : "A VR Escape Game",
+    "category": "VR/Escape Game",
+    "role" : "Game Designer",
     "capsule":{
         "type":"image",
         "src":"path/to/image.png"
@@ -10,8 +10,7 @@
     "documents" : [
         {
         "type": "link",
-        "url" : "https://store.steampowered.com/app/1654230/Terebron",
-        "label": "Steam page of the game"
+        "url" : "https://store.steampowered.com/app/1654230/Terebron"
         }
     ],
     "content": [

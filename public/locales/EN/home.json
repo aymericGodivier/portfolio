@@ -1,8 +1,9 @@
 {
     "title": "My projects",
+    "linkLabel":"More infos",
     "projects": [
     {
-      "image": "../assets/images/main/Aymeric Godivier Logo.png",
+      "image": "images/Aymeric Godivier Logo.png",
       "title": "Project 1 Title",
       "description": "Description of Project 1",
       "link" : "terebron",
