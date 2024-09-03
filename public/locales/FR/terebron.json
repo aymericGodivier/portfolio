@@ -1,0 +1,45 @@
+{
+    "title": "Terebron",
+    "subtitle" : "Un jeu de puzzle à base de lasers et de miroirs",
+    "category": "Puzzle/Réflexion",
+    "role" : "Game Designer/Level Designer/UX Designer",
+    "capsule":{
+        "type":"image",
+        "src":"path/to/image.png"
+    },
+    "documents" : [
+        {
+        "type": "link",
+        "url" : "https://store.steampowered.com/app/1654230/Terebron"
+        }
+    ],
+    "content": [
+        {
+        "type": "paragraph",
+        "text": "C'est le premier paragraphe."
+        },
+        {
+        "type": "image",
+        "src": "path/to/image.png",
+        "alt": "Project Image"
+        },
+        {
+        "type": "youtube",
+        "videoId": "dQw4w9WgXcQ"
+        },
+        {
+        "type": "download",
+        "label": "Download PDF",
+        "url": "path/to/document.pdf"
+        },
+        {
+        "type": "link",
+        "label": "Visit Website",
+        "url": "https://example.com"
+        },
+        {
+            "type": "paragraph",
+            "text": "C'est le deuxième paragraphe."
+        }
+    ]
+}

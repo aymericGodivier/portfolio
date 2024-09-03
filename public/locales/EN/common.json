@@ -1,0 +1,13 @@
+{    
+"header": {
+    "secondaryTitle": "QA Tester and Game Designer",
+    "nav": {
+        "home": "Projects",
+        "about": "About",
+        "translate":{
+            "english": "English",
+            "french" : "French"
+        }
+    }
+}
+}

@@ -1,3 +1,19 @@
 {
-    "app.header" : "Test en FR"
+    "title": "Mes projets",
+    "projects": [
+    {
+      "image": "../assets/images/main/Aymeric Godivier Logo.png",
+      "title": "Titre projet 1",
+      "description": "Description du Projet 1",
+      "link" : "terebron",
+      "projectId" : "terebron"
+    },
+    {
+      "image": "../assets/images/main/Aymeric Godivier Logo.png",
+      "title": "Titre projet 2",
+      "description": "Description du Projet 2",
+      "link" : "vault-plunderer",
+      "projectId" : "vault-plunderer"
+    }
+  ]
 }
