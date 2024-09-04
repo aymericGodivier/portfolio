@@ -1,20 +1,27 @@
 {
     "title": "Mes projets",
     "linkLabel":"Plus d'infos",
+    "filterLabels1":["Tous","Game Designer","Testeur QA","Level Designer","UX Designer","Programmeur"],
     "projects": [
     {
-      "image": "images/Aymeric Godivier Logo.png",
-      "title": "Titre projet 1",
+      "image": "images/common/Aymeric Godivier Logo.png",
+      "title": "Terebron",
+      "type": "Puzzle/Réflexion - PC",
+      "technologies": "Unity",
       "description": "Description du Projet 1",
       "link" : "terebron",
-      "projectId" : "terebron"
+      "projectId" : "terebron",
+      "tags" : ["GD","LD","UX","QA","game"]
     },
     {
       "image": "../assets/images/main/Aymeric Godivier Logo.png",
-      "title": "Titre projet 2",
+      "title": "Vault Plunderer",
+      "type": "Escape Game - VR",
+      "technologies": "Unreal Engine 4 - Meta Quest 2",
       "description": "Description du Projet 2",
       "link" : "vault-plunderer",
-      "projectId" : "vault-plunderer"
+      "projectId" : "vault-plunderer",
+      "tags" : ["GD","proto"]
     }
   ]
 }

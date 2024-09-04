@@ -1,11 +1,10 @@
 import { NavLink } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-export function ProjectCard({ image, title, description,link,id }){
+export function ProjectCard({ image, title, description,link,tags }){
     const { t } = useTranslation('home');
-    console.log("image "+image)
 
     return(
-        <div className="card-container">
+        <div className="card-container" data-tags={tags.join(' ')}>
             <img className="card-image" src={image} alt={title}/>
             <span className="card-title">{title}</span>
             <p className="card-description">{description}</p>

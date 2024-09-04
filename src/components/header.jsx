@@ -10,7 +10,8 @@ export function Header(){
     return(
         <header>
             <div className='social-links'>
-
+                <a href='https://www.linkedin.com/in/aymeric-godivier-5aa763137/'>Linkedin</a>
+                <a href='https://github.com/aymericGodivier'>GitHub</a>
             </div>
             <div className='header-titles'>
                 <h2 className='portfolio-title'>AYMERIC GODIVIER</h2>
