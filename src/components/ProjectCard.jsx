@@ -9,7 +9,7 @@ export function ProjectCard({ image, title, description,link,tags }){
             <span className="card-title">{title}</span>
             <p className="card-description">{description}</p>
             <NavLink to={`/${link}`} className="nav-link" activeclassname="active">
-                        {t('linkLabel')}
+                        {t('projectsSection.linkLabel')}
             </NavLink>
         </div>
     )

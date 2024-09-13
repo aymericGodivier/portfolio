@@ -1,7 +1,19 @@
 {
-    "title": "My projects",
-    "linkLabel":"More infos",
-    "filterLabels1":["All","Game Designer","QA Tester","Level Designer","UX Designer","Programmer"],
+    "title": "QA Tester and Game Designer",
+    "welcomeSection":{
+      "title":"Welcome",
+      "Presentation":"Welcome to my website!\n\nThis is the second line.\n\nAnd this is the third line.",
+      "GD":"I'm a game designer!\nThis is the second line.\nAnd this is the third line.",
+      "QA":"I'm a QA\nThis is the second line.\nAnd this is the third line."
+    },
+    "projectsSection":{
+      "title":"My Projects",
+      "linkLabel":"More infos",
+      "filterName1":"Roles",
+      "filterName2":"Project type",
+      "filterLabels1":["All","Game Designer","QA Tester","Level Designer","UX Designer","Programmer"],
+      "filterLabels2":["All","Games","Prototypes","Web"]
+    },  
     "projects": [
     {
       "image": "images/common/Aymeric Godivier Logo.png",
@@ -14,7 +26,7 @@
       "tags" : ["GD","LD","UX","QA","game"]
     },
     {
-      "image": "../assets/images/main/Aymeric Godivier Logo.png",
+      "image": "images/common/Aymeric Godivier Logo.png",
       "title": "Vault Plunderer",
       "type": "Escape Game - VR",
       "technologies": "Unreal Engine 4 - Meta Quest 2",
@@ -22,6 +34,16 @@
       "link" : "vault-plunderer",
       "projectId" : "vault-plunderer",
       "tags" : ["GD","proto"]
+    },
+    {
+      "image": "images/common/Aymeric Godivier Logo.png",
+      "title": "Bisbille",
+      "type": "Versus/Local multiplayer",
+      "technologies": "Unity",
+      "description": "Description of Project 3",
+      "link" : "bisbille",
+      "projectId" : "bisbille",
+      "tags" : ["GD","QA","proto"]
     }
   ]
 }

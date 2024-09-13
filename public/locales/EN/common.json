@@ -9,5 +9,8 @@
             "french" : "French"
         }
     }
+},
+"footer":{
+    "credits":"This website has been realised by Aymeric Godivier"
 }
 }

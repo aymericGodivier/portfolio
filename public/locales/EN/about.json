@@ -1,3 +1,44 @@
 {
-    "title":"About"
+    "title":"About",
+    "aboutSection":{
+        "title": "My profile",
+        "description" : "My name is Aymeric GODIVIER and I am a Game Designer looking for a job.\nI have a Master in Game Design and I had the opportunity to work on the game Terebron as a Game Designer and Level Designer.\nI also had the opportunity to work on many games as a student.\nDuring my Master's degree I also did a memoir on the theme of temporality in video games.\nI'm rather specialized in Game Design, but I also have strong skills in Level Design and good notions of UX design.\n\nI master the game engines Unreal Engine 4 and Unity3D as well as graphic design software such as Illustrator or Affinity Designer.\nI also master UX design tools such as Adobe xd.\nI am passionate about video games, fantasy novels and anime. I draw most of my inspirations from them, which you will find in my creations.",
+        "downloadLabel": "Download my resume",
+        "resumeUrl":"documents/about/CV_aymeric_godivier.pdf"
+    },
+    "skillsSection":{
+        "title": "My skills",
+        "allSkills":[
+            {
+                "name": "Programming",
+                "skills":[
+                    {
+                        "skillName":"JavaScript",
+                        "description" : "I'm very good at JS"
+                    },
+                    {
+                        "skillName":"C#",
+                        "description" : "I'm ok at C#"
+                    }
+                ]
+                
+            },
+            {
+                "name": "Game Design",
+                "skills":[
+                  {
+                    "skillName": "Documenation",
+                    "description": "I know écrire des docs"
+                  },
+                  {
+                    "skillName": "Conception",
+                    "description": "I have des idées de ouf"
+                  }
+                ]
+            }
+        ]
+    },
+    "educationSection":{
+        "title": "My education"
+    }
 }

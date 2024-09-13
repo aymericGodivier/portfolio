@@ -2,6 +2,7 @@ import './CSS/App.css';
 import { FilterProvider } from './context/FilterContext';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import { Header } from './components/Header';
+import { Footer } from './components/Footer';
 import Home from './pages/Home';
 import About from './pages/About';
 import { ProjectPage } from './components/ProjectPage';
@@ -18,6 +19,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path=":projectId" element={<ProjectPage/>} />
         </Routes>
+        <Footer/>
       </Router>
     </FilterProvider>
     

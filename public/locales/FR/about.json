@@ -1,3 +1,44 @@
 {
-    "title":"À propos"
-}
+    "title": "A propos",
+    "aboutSection":{
+        "title": "Mon profil",
+        "description" : "Je m'appelle Aymeric GODIVIER et je suis Game Designer en recherche d'emploi. \nJe suis diplômé d'un Master en Game Design et j'ai eu l'occasion de travailler sur le jeu Terebron en tant que Game Designer et Level Designer. \nJ'ai également eu l'occasion de travailler sur de nombreux jeux en tant qu'étudiant. Durant mon Master, j'ai aussi réalisé un mémoire sur le thème de la temporalité dans le jeu vidéo. \nJe suis plutôt spécialisé en Game Design, mais j'ai aussi de solides compétences en Level Design et de bonnes notions d'UX design. \n\nJe maîtrise les moteurs de jeu Unreal Engine 4 et Unity3D ainsi que des logiciels de création graphiques comme Illustrator ou Affinity Designer. \n\nDe plus, je maîtrise aussi des outils d'UX design tels qu'Adobe XD. \nJe suis passionné de jeux vidéo, de romans fantasy et d'animés. J'y puise la plupart de mes inspirations que vous retrouverez dans mes créations.",
+        "downloadLabel": "Télécharger mon CV",
+        "resumeUrl":"documents/about/CV_aymeric_godivier.pdf"
+    },
+    "skillsSection":{
+        "title": "Mes compétences",
+        "allSkills":[
+            {
+                "name": "Programmation",
+                "skills":[
+                    {
+                        "skillName":"JavaScript",
+                        "description" : "Je suis very good at JS"
+                    },
+                    {
+                        "skillName":"C#",
+                        "description" : "Je suis ok at C#"
+                    }
+              ]
+                
+            },
+            {
+              "name": "Game Design",
+              "skills":[
+                {
+                  "skillName": "Documenation",
+                  "description": "Je sais écrire des docs"
+                },
+                {
+                  "skillName": "Conception",
+                  "description": "J'ai des idées de ouf"
+                }
+              ]
+            }
+        ]
+    },
+    "educationSection":{
+        "title": "Mes formations"
+    }
+  }

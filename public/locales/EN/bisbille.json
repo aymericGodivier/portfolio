@@ -1,0 +1,51 @@
+{
+    "title": "Bisbille",
+    "subtitle" : "A confrontation game where you push and pull your opponents",
+    "category": "Versus/Local multiplayer",
+    "role" : "Game Designer/QA",
+    "capsule":{
+        "type":"image",
+        "src":"path/to/image.png"
+    },
+    "documents" : [
+        {
+        "type": "download",
+        "label": "See the GDD",
+        "url": "path/to/document.pdf"
+        },
+        {
+            "type": "download",
+            "label": "See the LDD",
+            "url": "path/to/document.pdf"
+            }
+    ],
+    "content": [
+        {
+        "type": "paragraph",
+        "text": "This is the first paragraph of the project."
+        },
+        {
+        "type": "image",
+        "src": "path/to/image.png",
+        "alt": "Project Image"
+        },
+        {
+        "type": "youtube",
+        "videoId": "dQw4w9WgXcQ"
+        },
+        {
+        "type": "download",
+        "label": "Download PDF",
+        "url": "path/to/document.pdf"
+        },
+        {
+        "type": "link",
+        "label": "Visit Website",
+        "url": "https://example.com"
+        },
+        {
+            "type": "paragraph",
+            "text": "It's the second paragraph."
+        }
+    ]
+}

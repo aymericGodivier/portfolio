@@ -3,11 +3,14 @@
     "secondaryTitle": "Testeur QA et Game Designer",
     "nav": {
         "home": "Projets",
-        "about": "À propos",
+        "about": "A propos",
         "translate":{
             "english": "Anglais",
             "french" : "Français"
         }
     }
+},
+"footer":{
+    "credits":"Ce site a été créé par Aymeric Godivier"
 }
 }

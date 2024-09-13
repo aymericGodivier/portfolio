@@ -15,7 +15,6 @@ export function Header(){
             </div>
             <div className='header-titles'>
                 <h2 className='portfolio-title'>AYMERIC GODIVIER</h2>
-                <h2 className='portfolio-secondary-title'>{t('header.secondaryTitle')}</h2>
             </div>
                         
             <nav>

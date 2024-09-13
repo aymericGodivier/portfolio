@@ -9,7 +9,9 @@ function Home() {
     const { filters } = useFilters(); // Récupère les filtres actuels depuis le contexte
     const projects = t('projects', { returnObjects: true });
     const tags1 = ["All", "GD", "QA", "LD", "UX", "Prog"];
-    const labels1 = t('filterLabels1', { returnObjects: true });
+    const tags2 = ["All", "game", "proto", "web"];
+    const labels1 = t('projectsSection.filterLabels1', { returnObjects: true });
+    const labels2 = t('projectsSection.filterLabels2', { returnObjects: true });
 
     // Vérifie si 'projects' est un tableau
     if (!Array.isArray(projects) || projects.length === 0) {
@@ -25,10 +27,26 @@ function Home() {
 
     return (
         <div>
-            <h1>{t('title')}</h1>
-            <FilterSelector tags={tags1} labels={labels1} filterType="role" />
-            {/* Tu peux ajouter d'autres FilterSelector pour d'autres types de filtres */}
-            
+            <h1>{t('title')}</h1>            
+            <div className='welcome'>
+                <div className='welcome-section part1'>
+                    <h2>{t('welcomeSection.title')}</h2>
+                    <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.Presentation')}</p>
+                </div>
+                <div className='welcome-section part2'>
+                    <h3>Game Design</h3>
+                    <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.GD')}</p>
+                    <h3>QA</h3>
+                    <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.QA')}</p>
+                </div>                
+            </div>
+            <h2>{t('projectsSection.title')}</h2>
+            <div className='filter-container'>
+                <span className='filterName'>{t('projectsSection.filterName1')}</span>
+                <FilterSelector tags={tags1} labels={labels1} filterType="role" />
+                <span className='filterName'>{t('projectsSection.filterName2')}</span>
+                <FilterSelector tags={tags2} labels={labels2} filterType="type" />
+            </div>         
             <div className="project-list">
                 {filteredProjects.map((project, index) => (
                     <ProjectCard

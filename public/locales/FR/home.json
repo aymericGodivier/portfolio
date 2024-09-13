@@ -1,7 +1,19 @@
 {
-    "title": "Mes projets",
-    "linkLabel":"Plus d'infos",
-    "filterLabels1":["Tous","Game Designer","Testeur QA","Level Designer","UX Designer","Programmeur"],
+    "title": "Testeur QA et Game Designer",
+    "welcomeSection":{
+      "title":"Bienvenue",
+      "Presentation":"Welcome to my website!\n\nThis is the second line.\n\nAnd this is the third line.",
+      "GD":"I'm a game designer!\nThis is the second line.\nAnd this is the third line.",
+      "QA":"I'm a QA\nThis is the second line.\nAnd this is the third line."
+    },
+    "projectsSection":{
+      "title":"Mes Projets",
+      "linkLabel":"Plus d'infos",
+      "filterName1":"Rôles",
+      "filterName2":"Type de projet",
+      "filterLabels1":["Tous","Game Designer","Testeur QA","Level Designer","UX Designer","Programmeur"],
+      "filterLabels2":["Tous","Jeux","Prototypes","Web"]
+    },
     "projects": [
     {
       "image": "images/common/Aymeric Godivier Logo.png",
@@ -22,6 +34,16 @@
       "link" : "vault-plunderer",
       "projectId" : "vault-plunderer",
       "tags" : ["GD","proto"]
+    },
+    {
+      "image": "images/common/Aymeric Godivier Logo.png",
+      "title": "Bisbille",
+      "type": "Versus/Multijoueur local",
+      "technologies": "Unity",
+      "description": "Description du Projet 3",
+      "link" : "bisbille",
+      "projectId" : "bisbille",
+      "tags" : ["GD","QA","proto"]
     }
   ]
 }
