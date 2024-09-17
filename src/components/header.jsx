@@ -10,8 +10,8 @@ export function Header(){
     return(
         <header>
             <div className='social-links'>
-                <a href='https://www.linkedin.com/in/aymeric-godivier-5aa763137/'>Linkedin</a>
-                <a href='https://github.com/aymericGodivier'>GitHub</a>
+                <a href='https://www.linkedin.com/in/aymeric-godivier-5aa763137/'><img src='/images/common/linkedin.png' alt='linkedin logo'></img></a>
+                <a href='https://github.com/aymericGodivier'><img src='/images/common/github.png' alt='github logo'></img></a>
             </div>
             <div className='header-titles'>
                 <h2 className='portfolio-title'>AYMERIC GODIVIER</h2>

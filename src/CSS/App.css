@@ -4,6 +4,9 @@
 
 header {
   background-color: #041a57;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
   max-height: 15vh;
   display: flex;
   flex-direction: row;
@@ -11,7 +14,12 @@ header {
   align-items: center;
   justify-content: center;
   font-size: 2rem;
-  color: white;
+  color: rgb(232, 230, 227);
+
+  img{
+    width: 6vh;
+    margin: 1.3vh;
+  }
 }
 
 nav{
@@ -46,12 +54,14 @@ h1{
   font-size: 3.8rem;
   margin-left: 15vh;
   margin-bottom: 9vh;
+  color: rgb(232, 230, 227);
 }
 
 h2{
   font-size: 2rem;
   line-height: 1;
   margin-left: 25vh;
+  color: rgb(232, 230, 227);
 }
 
 .welcome{
@@ -63,6 +73,7 @@ h2{
   }
   h3{
     margin: 0;
+    color: rgb(232, 230, 227);
   }
 }
 
@@ -72,6 +83,13 @@ h2{
   width: 35vh;
   margin-left: 3vh;
   margin-right: 3vh;
+  color: rgb(232, 230, 227);
+}
+
+.filter-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
 }
 
 .project-list{
@@ -81,49 +99,60 @@ h2{
   flex-wrap: wrap;
   padding-left: 18vh;
   padding-right: 18vh;
+  min-height: 60vh;
 }
 
 .card-container{
-  width: fit-content;
+  width: 40vh;
+  height: 65vh;
   padding: 1vh;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   margin: 2vh;
-  background-color: #287ef0;
-}
-
-.card-image{
-  max-width: 30vh;
-  max-height: 30vh;
-}
-
-.card-title{
-  font-size: 2rem;
+  background-color: #041a57;
+  color: rgb(232, 230, 227);
+  .image-container{
+    width: 40vh;
+    height: 40vh;
+    overflow: hidden;
+  }
+  .card-image{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    background-color: white;
+  }
+  .card-title{
+    font-size: 2rem;
+  }
 }
 
 .download-button{
   display: flex;
-  width: fit-content;
+  width: 18vh;
   padding: 0.5vh;
+  margin-top: 2vh;
   justify-content: center;
   align-items: center;
   text-decoration: none;
-  background-color: white;
-  color: black;
-  border: 3px solid black;
+  background-color: #041a57;
+  color: rgb(232, 230, 227);
+  border: 3px solid rgb(232, 230, 227);
 }
 
 .download-button:hover{
-  background-color: black;
-  color: white;
+  background-color: #448aff;
+  color: rgb(232, 230, 227);
 }
 
 .about-section{
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding-left: 25vh;
+  padding-right: 25vh;
+  color: rgb(232, 230, 227);
 }
 
 .about-section.part1{
@@ -132,6 +161,7 @@ align-items: center;
     display: flex;
     width: 80%;
     justify-content: center;
+    margin-bottom: 4vh;
   }
 }
 
@@ -139,36 +169,68 @@ align-items: center;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 .skill-card{
-  max-width: 25vh;
+  display: flex;
+  flex-direction: column;
+  width: 30vh;
+  padding: 1.5vh;
+  margin-top: 1.5vh;
+  .skill-title{
+    align-self: center;
+    font-size: 2rem;
+    margin-bottom: 1vh;
+  }
 }
 
 .about-section.part3{
   flex-direction: row;
   justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.education-card{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 30vh;
+  margin-top: 2.5vh;
+  .formation-name{
+    font-size: 1.3rem;
+    align-self: center;
+    font-weight: bold;
+  }
+  .school-name{
+    font-size: 1.1rem;
+  }
+  .dates{
+    font-weight: bold;
+  }
 }
 
 .folding-menu {
   display: flex;
   flex-direction: column;
   width: 100%;
-  margin-top: 1vh;
+  margin-top: 0;
 }
 .folding-menu .menu-header {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 96%;
   align-items: center;
   background: #041a57;
   padding: 0.4vh;
   border-radius: 0.3rem;
 }
 .folding-menu .menu-header span {
-  color: white;
-  font-size: 1.3rem;
+  color: rgb(232, 230, 227);
+  font-size: 1.1rem;
+  padding-left: 0.5rem;
   font-weight: bold;
+  cursor: pointer;
 }
 .folding-menu .menu-header img {
   max-width: 2.5vh;
@@ -176,14 +238,14 @@ align-items: center;
   transition: transform 0.3s ease;
 }
 .folding-menu .menu-content {
-  width: 100%;
+  width: 96%;
   transform: translateY(-100%); /* Déplace le contenu vers le haut pour le cacher initialement */
-  transition: transform 0.3s ease, height 0.3s ease; /* Transition pour un effet de glissement */
   padding: 0.5vh;
+  padding-bottom: 0.1vh;
   z-index: -10;
   height: 0;
   overflow: hidden;
-  background-color: #F6F6F6;
+  background-color:#3f51b5;
   border-radius: 0 0 0.3rem 0.3rem;
 }
 .folding-menu .menu-content p {
@@ -191,6 +253,7 @@ align-items: center;
   display: flex;
   flex-direction: column;
   padding: 0.2vh;
+  color: rgb(232, 230, 227);
 }
 .folding-menu.expanded .menu-content {
   height: 100%;
@@ -201,11 +264,12 @@ align-items: center;
 }
 
 footer{
+  margin-top: 5vh;
   margin-bottom: 0;
   height: 15vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: black;
+  background-color: rgb(27, 29, 30);
   color: white;
 }

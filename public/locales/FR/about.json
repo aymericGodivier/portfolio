@@ -2,43 +2,135 @@
     "title": "A propos",
     "aboutSection":{
         "title": "Mon profil",
-        "description" : "Je m'appelle Aymeric GODIVIER et je suis Game Designer en recherche d'emploi. \nJe suis diplômé d'un Master en Game Design et j'ai eu l'occasion de travailler sur le jeu Terebron en tant que Game Designer et Level Designer. \nJ'ai également eu l'occasion de travailler sur de nombreux jeux en tant qu'étudiant. Durant mon Master, j'ai aussi réalisé un mémoire sur le thème de la temporalité dans le jeu vidéo. \nJe suis plutôt spécialisé en Game Design, mais j'ai aussi de solides compétences en Level Design et de bonnes notions d'UX design. \n\nJe maîtrise les moteurs de jeu Unreal Engine 4 et Unity3D ainsi que des logiciels de création graphiques comme Illustrator ou Affinity Designer. \n\nDe plus, je maîtrise aussi des outils d'UX design tels qu'Adobe XD. \nJe suis passionné de jeux vidéo, de romans fantasy et d'animés. J'y puise la plupart de mes inspirations que vous retrouverez dans mes créations.",
-        "downloadLabel": "Télécharger mon CV",
-        "resumeUrl":"documents/about/CV_aymeric_godivier.pdf"
+        "description" : "Curieux de nombreux domaines et avide d'apprendre, j'ai commencé mes études supérieures dans le design web et le multimédia. J'ai ensuite poursuivi ma passion pour les jeux vidéo avec une formation en Level Design, où j'ai appris les fondamentaux de la conception de jeux. Puis, j'ai approfondi mes connaissances avec un Master en Game Design, durant lequel j'ai travaillé au sein de Terebris sur le jeu de puzzle Terebron. Afin d'ajouter de nouvelles compétences à mon arsenal, j'ai finalement suivi une formation de testeur logiciel.\n\nPassionné par la représentation et la manipulation du temps au sein des jeux vidéos, j'ai réalisé mon mémoire de Master sur ce sujet.\n\nTrès polyvalent, j'ai des compétences en Game Design ainsi qu'en test logiciel. J'ai également de bonnes notions de programmation et d'UX design. Observateur et méticuleux, j'apprends très vite et m'adapte facilement à de nouvelles situations. Avec mes compétences variées, je pense pouvoir apporter mon aide à des équipes très diverses.",
+        "downloadLabel1": "Télécharger mon CV",
+        "resumeUrl":"documents/about/cv_aymeric_godivier.pdf",
+        "downloadLabel2": "Mon mémoire",
+        "memoireUrl": "documents/about/Memoire Aymeric Godivier.pdf"
     },
     "skillsSection":{
         "title": "Mes compétences",
         "allSkills":[
             {
-                "name": "Programmation",
-                "skills":[
-                    {
-                        "skillName":"JavaScript",
-                        "description" : "Je suis very good at JS"
-                    },
-                    {
-                        "skillName":"C#",
-                        "description" : "Je suis ok at C#"
-                    }
-              ]
-                
-            },
-            {
               "name": "Game Design",
               "skills":[
                 {
-                  "skillName": "Documenation",
-                  "description": "Je sais écrire des docs"
+                  "skillName": "Documentation",
+                  "description": "J'ai été responsable de la rédaction et de la mise à jour des documents de design sur de nombreux projets. Que ce soit la documentation de gameplay ou de Level Design."
                 },
                 {
                   "skillName": "Conception",
-                  "description": "J'ai des idées de ouf"
+                  "description": "J'ai participé à la conception des core mécaniques sur de nombreux projets étudiants et de Jam. Je suis également résponsable de nouvelles mécaniques sur des projets tels que Terebron ou SilverLining."
+                },
+                {
+                    "skillName": "Level Design",
+                    "description": "J'ai créé plus de 150 niveaux pour Terebron. J'ai aussi réalisé la totalité de l'espace de jeu sur Hikikomori et j'ai conçu une grande partie de la carte de SilverLining."
+                },
+                {
+                    "skillName": "Équilibrage",
+                    "description": "J'étais chargé de l'équilibrage de la difficulté des niveaux sur Terebron. Je suis aussi responsable de l'équilibrage du game feel sur Bisbille."
                 }
+                
               ]
+            },
+            {
+                "name": "Test QA",
+                "skills":[
+                    {
+                        "skillName":"Méthodes de test",
+                        "description": "J'ai effectué divers types de tests au cours de plusieurs projets, notamment des tests fonctionnels pour vérifier le bon fonctionnement des applications, ainsi que des tests non fonctionnels tels que des tests de performance et d'interface, afin d'assurer la qualité globale du produit."
+                    },
+                    {
+                        "skillName": "Suivi des bugs",
+                        "description": "Je maitrise des outils de reports et de suivi de bugs tels que JIRA ou Trello."
+                    },
+                    {
+                        "skillName": "Stratégie de test",
+                        "description": "J'ai pu concevoir une stratégie de test avec la mise en place de cas de tests, d'un cahier de recettes et d'un planning."
+                    },
+                    {
+                        "skillName": "Localisation",
+                        "description": "Sur Terebron, j'ai effectué une partie de localisation et de son intégration. J'étais aussi responsable de vérifier et corriger les erreurs de localisation."
+                    },
+                    {
+                        "skillName": "Automatisation",
+                        "description": "J'ai eu l'occasion de créer des scripts de tests automatisés avec Cypress."
+                    },
+                    {
+                        "skillName": "Playtest",
+                        "description": "J'ai eu l'occasion de participer à de nombreux playtests. J'ai aussi suppervisé, suivi puis analysé différents playtests."
+                    }
+                ]
+            },
+            {
+                "name": "UI/UX design",
+                "skills":[
+                    {
+                        "skillName": "Ergonomie",
+                        "description": "Grâce à ma formation et mon expériences en conception de sites webs, j'ai de solides compétences en ergonomie."
+                    },
+                    {
+                        "skillName": "Design",
+                        "description" :"Sur Terebron, j'ai redesigné l'interface de jeu, l'interface des menus et j'ai réalisé l'intégralité de l'interface de l'éditeur de niveaux."
+                    },
+                    {
+                        "skillName": "Prototypage",
+                        "description": "J'ai conçus de nombreux prototypes d'interfaces à l'aide de logiciels tels que Figma ou Adobe XD."
+                    },
+                    {
+                        "skillName": "Mobile",
+                        "description":"J'ai conçu la version mobile de l'interface de Terebron. Je fais aussi en sorte que mes sites soient responsive et adaptés au mobile."
+                    }
+                ]
+            },
+            {
+                "name": "Technique",
+                "skills":[
+                    {
+                        "skillName": "Moteurs de jeu",
+                        "description": "Ayant travaillé sur Terebron développé sur Unity, je suis très à l'aise avec l'utilisation et l'intégration de contenu sur Unity. Grâce aux nombreux jeux et prototypes développés pendant mes études, je suis également très familier avec Unreal Engine."
+                    },
+                    {
+                        "skillName":"JavaScript et React",
+                        "description" : "Ayant créé de nombreux projets en Javascript (sites web, applications, mini-jeux) j'ai un bon niveau avec ce langage. J'ai aussi créé plusieurs projet en React (dont ce portfolio)."
+                    },
+                    {
+                        "skillName":"Unreal Blueprints",
+                        "description" : "J'ai programmé plusieurs prototypes en Blueprints, nottamment Jekyll and Hyde et Alice."
+                    }
+              ]
+                
             }
         ]
     },
     "educationSection":{
-        "title": "Mes formations"
+        "title": "Mes formations",
+        "education":[
+            {
+                "name": "Testeur logiciel",
+                "school":"OpenClassrooms",
+                "dates":"2024",
+                "description" : "Formation visant à former aux méthodologies de tests, à l'utilisation d'outils de reports de bugs et à l'automatisation de tests."
+            },
+            {
+                "name": "Mastère Game Design",
+                "school":"ICAN",
+                "dates":"2020 - 2022",
+                "description" : "Ce Master en alternance forme des experts en conception de jeux vidéo. Avec des cours de Game Design, Programmation, et Narrative Design, appliqués en développant de nombreux projets de jeux."
+            },
+            {
+                "name": "DU Level Design",
+                "school":"Gamagora",                
+                "dates":"2018 - 2019",
+                "description" : "Cette formation en 1 an apprend les fondamentaux de la conception de jeux. Cela comprend le Game Design, le Level Design, la narration et l'utilisation des moteurs de jeux Unreal Engine et Unity."
+            },
+            {
+                "name": "DUT MMI",
+                "school":"IUT du Limousin",                
+                "dates":"2016 - 2018",
+                "description" : "Une formation pluridisciplinaire visant à former à la conception de sites webs et de projets multimédia. Elle forme donc à l'érgonomie ou au JavaScript mais aussi à toute la suite Adobe."
+            }
+
+        ]
     }
   }

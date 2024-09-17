@@ -12,7 +12,7 @@ export function Collapsable({title, content}){
         <div className={`folding-menu ${expanded ? 'expanded' : ''}`}>
             <div className="menu-header">
                 <span onClick={toggleMenu}>{title}</span>
-                <img src="images/common/Chevron.png" onClick={toggleMenu}></img>
+                <img src="images/common/Chevron.png" onClick={toggleMenu} alt='collapse arrow'></img>
             </div>            
             <div className="menu-content">
                 <p>

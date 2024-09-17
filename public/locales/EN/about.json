@@ -2,43 +2,135 @@
     "title":"About",
     "aboutSection":{
         "title": "My profile",
-        "description" : "My name is Aymeric GODIVIER and I am a Game Designer looking for a job.\nI have a Master in Game Design and I had the opportunity to work on the game Terebron as a Game Designer and Level Designer.\nI also had the opportunity to work on many games as a student.\nDuring my Master's degree I also did a memoir on the theme of temporality in video games.\nI'm rather specialized in Game Design, but I also have strong skills in Level Design and good notions of UX design.\n\nI master the game engines Unreal Engine 4 and Unity3D as well as graphic design software such as Illustrator or Affinity Designer.\nI also master UX design tools such as Adobe xd.\nI am passionate about video games, fantasy novels and anime. I draw most of my inspirations from them, which you will find in my creations.",
-        "downloadLabel": "Download my resume",
-        "resumeUrl":"documents/about/CV_aymeric_godivier.pdf"
+        "description" : "Curious about many fields and eager to learn, I began my higher education in web design and multimedia. I then pursued my passion for video games with a Level Design degree, where I learned the fundamentals of game design. I further expanded my knowledge with a Master's in Game Design, during which I worked at Terebris on the puzzle game Terebron. To add new skills to my repertoire, I finally completed training as a software tester.\n\nPassionate about the representation and manipulation of time in video games, I completed my Master's thesis on this subject.\n\nHighly versatile, I have skills in Game Design as well as software testing. I also have a good understanding of programming and UX design. Observant and meticulous, I learn quickly and adapt easily to new situations. With my diverse skill set, I believe I can contribute to a wide range of teams.",
+        "downloadLabel1": "Download my resume",
+        "resumeUrl":"documents/about/resume_aymeric_godivier.pdf",
+        "downloadLabel2": "My thesis (FR)",
+        "memoireUrl": "documents/about/Memoire Aymeric Godivier.pdf"
     },
     "skillsSection":{
         "title": "My skills",
         "allSkills":[
             {
-                "name": "Programming",
-                "skills":[
-                    {
-                        "skillName":"JavaScript",
-                        "description" : "I'm very good at JS"
-                    },
-                    {
-                        "skillName":"C#",
-                        "description" : "I'm ok at C#"
-                    }
-                ]
+              "name": "Game Design",
+              "skills":[
+                {
+                  "skillName": "Documentation",
+                  "description": "I was responsible for writing and updating design documents on numerous projects, whether it was gameplay documentation or level design documentation."
+                },
+                {
+                  "skillName": "Design",
+                  "description": "I participated in the design of core mechanics on numerous student and game jam projects. I am also responsible for new mechanics on projects such as Terebron and SilverLining."
+                },
+                {
+                    "skillName": "Level Design",
+                    "description": "I created over 150 levels for Terebron. I also designed the entire game space for Hikikomori and created a large part of the map for SilverLining."
+                },
+                {
+                    "skillName": "Balancing",
+                    "description": "I was in charge of balancing the difficulty of the levels in Terebron. I am also responsible for balancing the game feel in Bisbille."
+                }
                 
+              ]
             },
             {
-                "name": "Game Design",
+                "name": "QA Testing",
                 "skills":[
-                  {
-                    "skillName": "Documenation",
-                    "description": "I know écrire des docs"
-                  },
-                  {
-                    "skillName": "Conception",
-                    "description": "I have des idées de ouf"
-                  }
+                    {
+                        "skillName":"Testing methods",
+                        "description": "I conducted various types of tests across several projects, including functional tests to verify the proper functioning of applications, as well as non-functional tests such as performance and interface tests, to ensure the overall quality of the product."
+                    },
+                    {
+                        "skillName": "Bug tracking",
+                        "description": "I am proficient with bug reporting and tracking tools such as JIRA and Trello."
+                    },
+                    {
+                        "skillName": "Test strategies",
+                        "description": "I was able to design a test strategy by implementing test cases, a test plan, and a schedule."
+                    },
+                    {
+                        "skillName": "Localization",
+                        "description": "On Terebron, I worked on some localization and its integration. I was also responsible for checking and correcting localization errors."
+                    },
+                    {
+                        "skillName": "Automation",
+                        "description": "I had the opportunity to create automated test scripts with Cypress."
+                    },
+                    {
+                        "skillName": "Playtest",
+                        "description": "I had the opportunity to participate in numerous playtests. I also supervised, monitored, and analyzed various playtests."
+                    }
                 ]
+            },
+            {
+                "name": "UI/UX design",
+                "skills":[
+                    {
+                        "skillName": "Ergonomics",
+                        "description": "Thanks to my training and experience in web design, I have strong skills in ergonomics"
+                    },
+                    {
+                        "skillName": "Design",
+                        "description" :"On Terebron, I redesigned the game interface, the menu interface, and created the entire level editor interface."
+                    },
+                    {
+                        "skillName": "Prototyping",
+                        "description": "I have designed numerous interface prototypes using tools such as Figma and Adobe XD."
+                    },
+                    {
+                        "skillName": "Mobile",
+                        "description":"I designed the mobile version of Terebron's interface. I also ensure that my websites are responsive and mobile-friendly."
+                    }
+                ]
+            },
+            {
+                "name": "Technical",
+                "skills":[
+                    {
+                        "skillName": "Game engines",
+                        "description": "Having worked on Terebron, developed in Unity, I am very comfortable with using and integrating content in Unity. Additionally, due to the many games and prototypes developed during my studies, I am also very familiar with Unreal Engine."
+                    },
+                    {
+                        "skillName":"JavaScript and React",
+                        "description" : "Having created numerous projects in JavaScript (websites, applications, mini-games), I have a strong proficiency in this language. I have also developed several projects in React (including this portfolio)."
+                    },
+                    {
+                        "skillName":"Unreal Blueprints",
+                        "description" : "I have programmed several prototypes using Blueprints, including Jekyll and Hyde and Alice."
+                    }
+              ]
+                
             }
         ]
     },
     "educationSection":{
-        "title": "My education"
+        "title": "My education",
+        "education":[
+            {
+                "name": "Software tester",
+                "school":"OpenClassrooms",
+                "dates":"2024",
+                "description" : "Training focused on test methodologies, using bug reporting tools, and test automation."
+            },
+            {
+                "name": "Master Game Design",
+                "school":"ICAN",
+                "dates":"2020 - 2022",
+                "description" : "This Master's program with alternating work-study periods trains experts in video game design. It includes courses in Game Design, Programming, and Narrative Design, applied through the development of numerous game projects."
+            },
+            {
+                "name": "Bachelor Level Design",
+                "school":"Gamagora",                
+                "dates":"2018 - 2019",
+                "description" : "This one-year training program teaches the fundamentals of game design. It covers Game Design, Level Design, storytelling, and the use of game engines Unreal Engine and Unity."
+            },
+            {
+                "name": "Degree web design",
+                "school":"IUT du Limousin",                
+                "dates":"2016 - 2018",
+                "description" : "A multidisciplinary training program aimed at teaching web design and multimedia projects. It covers ergonomics and JavaScript, as well as the entire Adobe suite."
+            }
+
+        ]
     }
 }

@@ -1,0 +1,51 @@
+{
+    "title": "Hikikomori",
+    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
+    "category": "Versus/Multijoueurs local",
+    "role" : "Game Designer/QA",
+    "capsule":{
+        "type":"image",
+        "src":"path/to/image.png"
+    },
+    "documents" : [
+        {
+        "type": "download",
+        "label": "Voir le GDD",
+        "url": "path/to/document.pdf"
+        },
+        {
+            "type": "download",
+            "label": "Voir le LDD",
+            "url": "path/to/document.pdf"
+            }
+    ],
+    "content": [
+        {
+        "type": "paragraph",
+        "text": "This is the first paragraph of the project."
+        },
+        {
+        "type": "image",
+        "src": "path/to/image.png",
+        "alt": "Project Image"
+        },
+        {
+        "type": "youtube",
+        "videoId": "dQw4w9WgXcQ"
+        },
+        {
+        "type": "download",
+        "label": "Download PDF",
+        "url": "path/to/document.pdf"
+        },
+        {
+        "type": "link",
+        "label": "Visit Website",
+        "url": "https://example.com"
+        },
+        {
+            "type": "paragraph",
+            "text": "It's the second paragraph."
+        }
+    ]
+}

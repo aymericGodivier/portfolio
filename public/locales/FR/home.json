@@ -16,34 +16,76 @@
     },
     "projects": [
     {
-      "image": "images/common/Aymeric Godivier Logo.png",
+      "image": "images/terebron/terebron_hero.jpg",
       "title": "Terebron",
       "type": "Puzzle/Réflexion - PC",
-      "technologies": "Unity",
       "description": "Description du Projet 1",
       "link" : "terebron",
       "projectId" : "terebron",
-      "tags" : ["GD","LD","UX","QA","game"]
+      "tags" : ["GD","LD","UX","QA","game","Unity"]
     },
     {
-      "image": "../assets/images/main/Aymeric Godivier Logo.png",
+      "image": "images/vault-plunderer/vault_title.png",
       "title": "Vault Plunderer",
       "type": "Escape Game - VR",
-      "technologies": "Unreal Engine 4 - Meta Quest 2",
       "description": "Description du Projet 2",
       "link" : "vault-plunderer",
       "projectId" : "vault-plunderer",
-      "tags" : ["GD","proto"]
+      "tags" : ["GD","proto","Unreal"]
     },
     {
-      "image": "images/common/Aymeric Godivier Logo.png",
+      "image": "images/bisbille/bisbille_logo.png",
       "title": "Bisbille",
-      "type": "Versus/Multijoueur local",
-      "technologies": "Unity",
+      "type": "Versus/Multijoueur local - PC",
       "description": "Description du Projet 3",
       "link" : "bisbille",
       "projectId" : "bisbille",
-      "tags" : ["GD","QA","proto"]
+      "tags" : ["GD","QA","proto","Unity"]
+    },
+    {
+      "image": "images/alice/alice_general_view.jpg",
+      "title": "Alice",
+      "type": "Narratif/Choix multiples - PC",
+      "description": "Description du Projet 3",
+      "link" : "alice",
+      "projectId" : "alice",
+      "tags" : ["GD","Prog","proto","Unreal"]
+    },
+    {
+      "image": "images/jekyll-and-hyde/main_image.jpg",
+      "title": "Jekyll and Hyde",
+      "type": "Narratif/Walking sim - PC",
+      "description": "Description du Projet 3",
+      "link" : "jekyll-and-hyde",
+      "projectId" : "jekyll-and-hyde",
+      "tags" : ["GD","Prog","proto","Unreal"]
+    },
+    {
+      "image": "images/silverlining/logo.jpg",
+      "title": "SilverLining",
+      "type": "RTS/Multijoueur - PC",
+      "description": "Description du Projet 3",
+      "link" : "silverlining",
+      "projectId" : "silverlining",
+      "tags" : ["GD","LD","game","Unity"]
+    },
+    {
+      "image": "images/hikikomori/logo.png",
+      "title": "Hikikomori",
+      "type": "Narratif - PC",
+      "description": "Description du Projet 3",
+      "link" : "hikikomori",
+      "projectId" : "hikikomori",
+      "tags" : ["GD","LD","game","Unity"]
+    },
+    {
+      "image": "images/the-cost-of-living/logo.png",
+      "title": "The Cost of Living",
+      "type": "Plateforme 2D - PC",
+      "description": "Description du Projet 3",
+      "link" : "the-cost-of-living",
+      "projectId" : "the-cost-of-living",
+      "tags" : ["GD","LD","game","Unity"]
     }
   ]
 }

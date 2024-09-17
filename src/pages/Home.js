@@ -53,6 +53,7 @@ function Home() {
                         key={index}
                         image={project.image}
                         title={project.title}
+                        type={project.type}
                         description={project.description}
                         link={project.link}
                         id={project.projectId}
