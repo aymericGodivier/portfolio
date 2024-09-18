@@ -34,18 +34,22 @@ function Home() {
                     <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.Presentation')}</p>
                 </div>
                 <div className='welcome-section part2'>
-                    <h3>Game Design</h3>
-                    <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.GD')}</p>
-                    <h3>QA</h3>
-                    <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.QA')}</p>
+                    <div className='block'>
+                        <h3>Game Design</h3>
+                        <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.GD')}</p>
+                    </div>
+                    <div className='block'>
+                        <h3>QA</h3>
+                        <p style={{ whiteSpace: 'pre-line' }} className='about-me'>{t('welcomeSection.QA')}</p>
+                    </div>                    
                 </div>                
             </div>
             <h2>{t('projectsSection.title')}</h2>
             <div className='filter-container'>
-                <span className='filterName'>{t('projectsSection.filterName1')}</span>
-                <FilterSelector tags={tags1} labels={labels1} filterType="role" />
-                <span className='filterName'>{t('projectsSection.filterName2')}</span>
-                <FilterSelector tags={tags2} labels={labels2} filterType="type" />
+            <label htmlFor='filter-role' className='filterName'>{t('projectsSection.filterName1')}</label>
+    <FilterSelector id='filter-role' tags={tags1} labels={labels1} filterType="role" />
+    <label htmlFor='filter-type' className='filterName'>{t('projectsSection.filterName2')}</label>
+    <FilterSelector id='filter-type' tags={tags2} labels={labels2} filterType="type" />
             </div>         
             <div className="project-list">
                 {filteredProjects.map((project, index) => (

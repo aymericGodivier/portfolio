@@ -2,9 +2,9 @@
     "title": "QA Tester and Game Designer",
     "welcomeSection":{
       "title":"Welcome",
-      "Presentation":"Welcome to my website!\n\nThis is the second line.\n\nAnd this is the third line.",
-      "GD":"I'm a game designer!\nThis is the second line.\nAnd this is the third line.",
-      "QA":"I'm a QA\nThis is the second line.\nAnd this is the third line."
+      "Presentation":"My name is Aymeric Godivier, and I am a QA Tester and Game Designer.\n\nCurious and eager to acquire diverse skills, I started with a training in multimedia.\nPassionate about video games, I decided to pursue this field with an initial training in Level Design, followed by a Master's in Game Design.\n\nTo further expand my skillset, I completed a software testing training in 2024 to learn all the methods and tools for testing.",
+      "GD":"I worked as a Game Designer on the puzzle game Terebron.\nI also had the opportunity to create numerous games during my studies and during Game Jams.",
+      "QA":"Thanks to my training, I have acquired all the necessary skills for the role of a tester.\nI have developed several test strategies, conducted numerous functional and non-functional tests, and also created automated test scripts."
     },
     "projectsSection":{
       "title":"My Projects",
@@ -15,35 +15,104 @@
       "filterLabels2":["All","Games","Prototypes","Web"]
     },  
     "projects": [
-    {
-      "image": "images/common/Aymeric Godivier Logo.png",
-      "title": "Terebron",
-      "type": "Puzzle - PC",
-      "technologies": "Unity",
-      "description": "Description of Project 1",
-      "link" : "terebron",
-      "projectId" : "terebron",
-      "tags" : ["GD","LD","UX","QA","game"]
-    },
-    {
-      "image": "images/common/Aymeric Godivier Logo.png",
-      "title": "Vault Plunderer",
-      "type": "Escape Game - VR",
-      "technologies": "Unreal Engine 4 - Meta Quest 2",
-      "description": "Description of Project 2",
-      "link" : "vault-plunderer",
-      "projectId" : "vault-plunderer",
-      "tags" : ["GD","proto"]
-    },
-    {
-      "image": "images/common/Aymeric Godivier Logo.png",
-      "title": "Bisbille",
-      "type": "Versus/Local multiplayer",
-      "technologies": "Unity",
-      "description": "Description of Project 3",
-      "link" : "bisbille",
-      "projectId" : "bisbille",
-      "tags" : ["GD","QA","proto"]
-    }
+      {
+        "image": "images/tomsen/tomsen_logo.png",
+        "title": "Tomsen",
+        "type": "Testing strategy",
+        "description": "As part of my training, using a mockup and functional specifications, I designed a test strategy. This included a requirement review, a test plan with test schedules, as well as documentation detailing the strategy itself.",
+        "link" : "tomsen",
+        "projectId" : "tomsen",
+        "tags" : ["web","QA"]
+      },
+      {
+        "image": "images/ecoblissbath/eco_home.jpg",
+        "title": "Eco Bliss Bath",
+        "type": "E-commerce website testing",
+        "description": "As part of my training, I was responsible for automating all functional tests, as well as API tests and some security tests, using Cypress.",
+        "link" : "ecoblissbath",
+        "projectId" : "ecoblissbath",
+        "tags" : ["web","Prog","QA"]
+      },
+      {
+        "image": "images/kasa/kasa_home.png",
+        "title": "Kasa",
+        "type": "Rental website",
+        "description": "As part of my training, using a Figma mockup and an existing backend, I developed the entire front-end of the site in React.",
+        "link" : "kasa",
+        "projectId" : "kasa",
+        "tags" : ["web","Prog","QA"]
+      },
+      {
+        "image": "images/terebron/terebron_hero.jpg",
+        "title": "Terebron",
+        "type": "Puzzle - PC",
+        "description": "I wrote most of the technical and design documentation. I designed new mechanics and revamped existing ones. I created over 150 levels, which I integrated and tested in Unity. I redesigned the game interface and designed the level editor.",
+        "link" : "terebron",
+        "projectId" : "terebron",
+        "tags" : ["GD","LD","UX","QA","game","Unity"]
+      },
+      {
+        "image": "images/vault-plunderer/vault_title.png",
+        "title": "Vault Plunderer",
+        "type": "Escape Game - VR",
+        "description": "I contributed to the overall player progression. I also designed one of the puzzles based on cylinder manipulation and revamped another puzzle that involved repositioning rails.",
+        "link" : "vault-plunderer",
+        "projectId" : "vault-plunderer",
+        "tags" : ["GD","proto","Unreal"]
+      },
+      {
+        "image": "images/bisbille/bisbille_logo.png",
+        "title": "Bisbille",
+        "type": "Versus/Local multiplayer - PC",
+        "description": "I participated in developing the core mechanics of the game. I was responsible for reporting bugs and testing multiple configurations of atomic parameters to ensure good game feel. I was also in charge of supervising the playtests.",
+        "link" : "bisbille",
+        "projectId" : "bisbille",
+        "tags" : ["GD","QA","proto","Unity"]
+      },
+      {
+        "image": "images/alice/alice_general_view.jpg",
+        "title": "Alice",
+        "type": "Narrative/Multiple choices - PC",
+        "description": "As a designer, I created several of the mini-games included in the game. I also programmed all the systems and interfaces of the game in Blueprint. Additionally, I integrated the level design into Unreal Engine.",
+        "link" : "alice",
+        "projectId" : "alice",
+        "tags" : ["GD","Prog","proto","Unreal"]
+      },
+      {
+        "image": "images/jekyll-and-hyde/main_image.jpg",
+        "title": "Jekyll and Hyde",
+        "type": "Narrative/Walking sim - PC",
+        "description": "I programmed all the systems and interfaces of the game in Blueprints, including a dialogue system with choices and a moral alignment system. I also integrated all the level design into Unreal Engine.",
+        "link" : "jekyll-and-hyde",
+        "projectId" : "jekyll-and-hyde",
+        "tags" : ["GD","Prog","proto","Unreal"]
+      },
+      {
+        "image": "images/silverlining/logo.jpg",
+        "title": "SilverLining",
+        "type": "RTS/Multiplayer - PC",
+        "description": "I wrote a significant portion of the design documentation. I also designed a large part of the modules that make up the game space. Additionally, I was heavily involved in balancing tests.",
+        "link" : "silverlining",
+        "projectId" : "silverlining",
+        "tags" : ["GD","LD","game","Unity"]
+      },
+      {
+        "image": "images/hikikomori/logo.png",
+        "title": "Hikikomori",
+        "type": "Narrative - PC",
+        "description": "I co-wrote the dialogues. I designed the assets using Asset Forge, then created all the level design with those assets and integrated them into Unity.",
+        "link" : "hikikomori",
+        "projectId" : "hikikomori",
+        "tags" : ["GD","LD","game","Unity"]
+      },
+      {
+        "image": "images/the-cost-of-living/logo.png",
+        "title": "The Cost of Living",
+        "type": "2D Plateform - PC",
+        "description": "I contributed to the design of the core mechanics, primarily the exchange mechanic and the initial abilities. I designed the first level of the game and integrated all the final assets into Unity.",
+        "link" : "the-cost-of-living",
+        "projectId" : "the-cost-of-living",
+        "tags" : ["GD","LD","game","Unity"]
+      }
   ]
 }

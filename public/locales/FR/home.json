@@ -2,9 +2,9 @@
     "title": "Testeur QA et Game Designer",
     "welcomeSection":{
       "title":"Bienvenue",
-      "Presentation":"Welcome to my website!\n\nThis is the second line.\n\nAnd this is the third line.",
-      "GD":"I'm a game designer!\nThis is the second line.\nAnd this is the third line.",
-      "QA":"I'm a QA\nThis is the second line.\nAnd this is the third line."
+      "Presentation":"Je m'appelle Aymeric Godivier et je suis Testeur QA et Game Designer.\n\nCurieux et voulant acquérir des compétences variées, j'ai commencé par une formation dans le multimédia.\nPassionné de jeux vidéos, j'ai décidé de poursuivre dans ce domaine avec une première formation en Level Design puis un Master de Game Design.\n\nAfin de gagner toujours plus de compétences, j'ai suivi en 2024 une formation de testeur logiciel pour apprendre toutes les méthodes et outils du test.",
+      "GD":"J'ai travaillé en tant que Game Designer sur le jeu de puzzle Terebron.\nJ'ai également eu l'occasion de créer de nombreux jeux lors de mes études et pendant des Game Jam.",
+      "QA":"Grâce à ma formation, j'ai acquis toutes les compétences nécessaires au métier de testeur.\nJ'ai réalisé plusieurs stratégies de tests, effectué de nombreux test fonctionnels et non fonctionnels. J'ai également créé des scripts de tests automatisés."
     },
     "projectsSection":{
       "title":"Mes Projets",
@@ -16,10 +16,37 @@
     },
     "projects": [
     {
+      "image": "images/tomsen/tomsen_logo.png",
+      "title": "Tomsen",
+      "type": "Stratégie de test",
+      "description": "Dans le cadre de ma formation, à partir d'une maquette et des spécifications fonctionnelles, j'ai conçu une stratégie de tests. Ce qui inclue la revue d'exigence, le cahier de recettes incluant les plannings de tests ainsi que la documentation détaillant la stratégie elle-même.",
+      "link" : "tomsen",
+      "projectId" : "tomsen",
+      "tags" : ["web","QA"]
+    },
+    {
+      "image": "images/ecoblissbath/eco_home.jpg",
+      "title": "Eco Bliss Bath",
+      "type": "Test site web d'e-commerce",
+      "description": "Dans le cadre de ma formation, j'étais chargé d'automatiser avec Cypress tous les tests fonctionnels ainsi que les tests API et certains tests de sécurité.",
+      "link" : "ecoblissbath",
+      "projectId" : "ecoblissbath",
+      "tags" : ["web","Prog","QA"]
+    },
+    {
+      "image": "images/kasa/kasa_home.png",
+      "title": "Kasa",
+      "type": "Site web de location",
+      "description": "Dans le cadre de ma formation, à partir d'une maquette Figma et d'un backend existant, j'ai réalisé en React tout le front-end du site.",
+      "link" : "kasa",
+      "projectId" : "kasa",
+      "tags" : ["web","Prog","QA"]
+    },
+    {
       "image": "images/terebron/terebron_hero.jpg",
       "title": "Terebron",
       "type": "Puzzle/Réflexion - PC",
-      "description": "Description du Projet 1",
+      "description": "J'ai rédigé la majorité de la documentation technique et de design. J'ai conçu de nouvelles mécaniques et remanié d'anciennes. J'ai conçus plus de 150 niveaux que j'ai intégré et testé dans Unity. J'ai redesigné l'interface de jeu et j'ai conçu l'éditeur de niveaux. ",
       "link" : "terebron",
       "projectId" : "terebron",
       "tags" : ["GD","LD","UX","QA","game","Unity"]
@@ -28,7 +55,7 @@
       "image": "images/vault-plunderer/vault_title.png",
       "title": "Vault Plunderer",
       "type": "Escape Game - VR",
-      "description": "Description du Projet 2",
+      "description": "J'ai contribué à l'élaboration du cheminement global du joueur. J'ai aussi conçu une des énigmes basé sur la manipulation de cylindres et remanié une des autres énigmes qui était basée sur la manipulation de rails à replacer.",
       "link" : "vault-plunderer",
       "projectId" : "vault-plunderer",
       "tags" : ["GD","proto","Unreal"]
@@ -37,7 +64,7 @@
       "image": "images/bisbille/bisbille_logo.png",
       "title": "Bisbille",
       "type": "Versus/Multijoueur local - PC",
-      "description": "Description du Projet 3",
+      "description": "J'ai participé à l'élaboration des core méchaniques du jeu. J'étais responsable de reporter les bugs et de tester de multiples configuration des paramètres atomiques afin d'assurer un bon game feel. J'étais aussi chargé de superviser les playtests.",
       "link" : "bisbille",
       "projectId" : "bisbille",
       "tags" : ["GD","QA","proto","Unity"]
@@ -46,7 +73,7 @@
       "image": "images/alice/alice_general_view.jpg",
       "title": "Alice",
       "type": "Narratif/Choix multiples - PC",
-      "description": "Description du Projet 3",
+      "description": "En tant que deisgner, j'ai conçu plusieurs des mini-jeux présents. J'ai aussi programmé en Blueprint tous les systèmes et interfaces du jeu. J'ai également intégré le level design dans Unreal Engine.",
       "link" : "alice",
       "projectId" : "alice",
       "tags" : ["GD","Prog","proto","Unreal"]
@@ -55,7 +82,7 @@
       "image": "images/jekyll-and-hyde/main_image.jpg",
       "title": "Jekyll and Hyde",
       "type": "Narratif/Walking sim - PC",
-      "description": "Description du Projet 3",
+      "description": "J'ai programmé en Blueprints tous les systèmes et interfaces du jeu dont un système de dialogues à choix ainsi qu'un système d'alignement moral. J'ai également intégré tout le level deisgn sur Unreal Engine",
       "link" : "jekyll-and-hyde",
       "projectId" : "jekyll-and-hyde",
       "tags" : ["GD","Prog","proto","Unreal"]
@@ -64,7 +91,7 @@
       "image": "images/silverlining/logo.jpg",
       "title": "SilverLining",
       "type": "RTS/Multijoueur - PC",
-      "description": "Description du Projet 3",
+      "description": "J'ai rédigé une part importante de la documentation de design. J'ai également conçu une grande partie des modules qui composent l'espace de jeu. J'ai aussi beaucoup participé aux tests d'équilibrages.",
       "link" : "silverlining",
       "projectId" : "silverlining",
       "tags" : ["GD","LD","game","Unity"]
@@ -73,7 +100,7 @@
       "image": "images/hikikomori/logo.png",
       "title": "Hikikomori",
       "type": "Narratif - PC",
-      "description": "Description du Projet 3",
+      "description": "J'ai co-écrit les dialogues. J'ai conçu les assets avec Asset Forge puis j'ai créé tout le level design avec et intégré les assets dans Unity.",
       "link" : "hikikomori",
       "projectId" : "hikikomori",
       "tags" : ["GD","LD","game","Unity"]
@@ -82,7 +109,7 @@
       "image": "images/the-cost-of-living/logo.png",
       "title": "The Cost of Living",
       "type": "Plateforme 2D - PC",
-      "description": "Description du Projet 3",
+      "description": "J'ai participé à la conception des cores méchaniques, principalement la mécanique d'échange et les premières capacités. J'ai conçu le premier niveau du jeu et j'ai intégré tous les assets définitifs dans Unity.",
       "link" : "the-cost-of-living",
       "projectId" : "the-cost-of-living",
       "tags" : ["GD","LD","game","Unity"]

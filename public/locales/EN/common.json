@@ -11,6 +11,8 @@
     }
 },
 "footer":{
-    "credits":"This website has been realised by Aymeric Godivier"
+    "credits":"This website has been realised by Aymeric Godivier",
+    "iconeCredits1": "Uk flag icons created by riajulislam - Flaticon",
+    "iconeCredits2": "France icons created by Freepik - Flaticon"
 }
 }

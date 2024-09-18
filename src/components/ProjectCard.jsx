@@ -6,7 +6,9 @@ export function ProjectCard({ image, title,type, description,link,tags }){
     return(
         <div className="card-container" data-tags={tags.join(' ')}>
             <div className='image-container'>
+            <NavLink to={`/${link}`} className="nav-link" activeclassname="active">
                 <img className="card-image" src={image} alt={title}/>
+            </NavLink>                
             </div>            
             <span className="card-title">{title}</span>
             <span className='card-type'>{type}</span>

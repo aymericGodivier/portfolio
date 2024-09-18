@@ -1,7 +1,7 @@
 import React from 'react';
 import { useFilters } from '../context/FilterContext'; // Importer le contexte des filtres
 
-export function FilterSelector({ tags, labels, filterType }) {
+export function FilterSelector({id, tags, labels, filterType }) {
     const { filters, updateFilter } = useFilters();
     const selectedTag = filters[filterType] || tags[0];
 
@@ -10,14 +10,12 @@ export function FilterSelector({ tags, labels, filterType }) {
     };
 
     return (
-        <div>
-            <select value={selectedTag} onChange={handleChange}>
+            <select id={id} value={selectedTag} onChange={handleChange}>
                 {tags.map((tag, index) => (
                     <option key={index} value={tag}>
                         {labels[index]}
                     </option>
                 ))}
-            </select>
-        </div>
+            </select>        
     );
 }

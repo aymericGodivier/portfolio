@@ -14,7 +14,9 @@ export function Header(){
                 <a href='https://github.com/aymericGodivier'><img src='/images/common/github.png' alt='github logo'></img></a>
             </div>
             <div className='header-titles'>
-                <h2 className='portfolio-title'>AYMERIC GODIVIER</h2>
+                <NavLink to="/" className="nav-link" activeclassname="active">
+                    <h2 className='portfolio-title'>AYMERIC GODIVIER</h2>    
+                </NavLink>                
             </div>
                         
             <nav>
@@ -30,10 +32,13 @@ export function Header(){
                 </li>
             </nav>
             <div className='translate-section'>
+            
                 <button onClick={() => changeLanguage('en')}>
+                <img src='/images/common/united-kingdom.png' alt='UK-flag'></img>
                     {t('header.nav.translate.english')}
-                </button>
+                </button>                
                 <button onClick={() => changeLanguage('fr')}>
+                <img src='/images/common/france.png' alt='french-flag'></img>
                     {t('header.nav.translate.french')}
                 </button>
             </div>

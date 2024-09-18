@@ -11,6 +11,8 @@
     }
 },
 "footer":{
-    "credits":"Ce site a été créé par Aymeric Godivier"
+    "credits":"Ce site a été créé par Aymeric Godivier",
+    "iconeCredits1": "Icone de drapeau britannique créé par riajulislam - Flaticon",
+    "iconeCredits2": "Icone de drapeau français créé par Freepik - Flaticon"
 }
 }
