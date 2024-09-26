@@ -1,45 +1,63 @@
 {
     "title": "Vault Plunderer",
-    "subtitle" : "A VR Escape Game",
-    "category": "VR/Escape Game",
-    "role" : "Game Designer",
+    "subtitle" : "An escape game in VR where you have to get out of a cave",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"I89btKiMEYk"
     },
     "documents" : [
         {
-        "type": "link",
-        "url" : "https://store.steampowered.com/app/1654230/Terebron"
+        "type": "download",
+        "label":"Download the GDD",
+        "url" : "documents/vault-plunderer/Vault Plunderer GDD.pdf"
         }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Vault Plunderer is a virtual reality escape game developed on Unreal Engine 4.\n\nIn the game, you play as a tomb raider who accidentally falls to the bottom of a cave.\n\nThe player then discovers mysterious gloves that allow them to manipulate the gigantic mechanisms around them.\n\nEach glove is equipped with several charges used to activate or move mechanisms from a distance.\n\nThe player must then reconstruct energy circuits to open the final door.\n\nThis project was created as part of my Master's degree and had two major constraints. It had to be a VR escape game and take place in a 3 x 3 meter play area.\n\nTo work around the second constraint, we ensured that the player could interact with elements outside of the 3 x 3 platform they move on.\n\nThis is why we implemented the glove manipulation mechanic."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/vault-plunderer/enigme_roulleaux.gif",
+        "alt": "Manipulating a cylinder at a distance"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/vault-plunderer/manip_gants.gif",
+            "alt": "Activating a switch"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "As a Game Designer, I contributed to defining the core mechanics. However, I mainly spent time designing several of the game's puzzles.\n\nThere are a total of seven conceptualized puzzles, five of which are in the game. I primarily worked on puzzle 5, the cylinder puzzle.\n\nThe goal of this puzzle is to reconstruct a circuit to bring energy from one side of the room to the other.\n\nThe puzzle consists of three cylinders, each covered in circuit segments. Each segment has connectors of different shapes.\n\nEnergy is only transmitted from one segment to another if connectors of the same shape are adjacent."
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/explication_cylindre.png",
+            "alt": "Puzzle explanation"
+        },
+        {
+            "type": "paragraph",
+            "text": "The goal is to manipulate the cylinders to align the circuit segments, knowing that the smaller inner cylinder can slide under the outer cylinders and move from one side to the other."
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/cylindre_2.png",
+            "alt": "Puzzle solution"
+        },
+        {
+            "type": "paragraph",
+            "text": "The goal is to manipulate the cylinders to align the circuit segments, knowing that the smaller inner cylinder can slide under the outer cylinders and move from one side to the other.\n\nIn this project, I was also tasked with completely reworking Puzzle 3, which involves retrieving one of the two gloves.\n\nThe puzzle was initially designed with rail systems that needed to be rotated to reconstruct a path to the platform.\n\nDue to time constraints, the original idea had to be scrapped, and I was assigned to rethink the puzzle.\n\nIn its new version, the puzzle keeps the same principle. The player needs to recreate a path of rails to bring the glove back to the platform.\n\nThe path is made up of fixed rails with gaps in certain places. The player has pieces of rails that are used to fill in these gaps to complete a continuous path.\n\nThe player must carefully observe the shape of the rails to place the right pieces in the correct spots.\n\nBelow is an image of the puzzle prototype and its final result in the game."
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/proto_rails.png",
+            "alt": "Rails prototype"
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/rails.png",
+            "alt": "Rails in game"
         }
     ]
 }

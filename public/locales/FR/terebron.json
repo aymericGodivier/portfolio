@@ -1,11 +1,9 @@
 {
     "title": "Terebron",
-    "subtitle" : "Un jeu de puzzle à base de lasers et de miroirs",
-    "category": "Puzzle/Réflexion",
-    "role" : "Game Designer/Level Designer/UX Designer",
+    "subtitle" : "Un jeu de réflexion à base de lasers et de miroirs",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"0qJgaYtnVf0"
     },
     "documents" : [
         {
@@ -17,30 +15,85 @@
     "content": [
         {
         "type": "paragraph",
-        "text": "C'est le premier paragraphe."
+        "text": "Terebron est un jeu de réflexion développé par le studio Terebris dans lequel le joueur contrôle le terebron, un artefact doté de multiples facultés.\n\nL'utilisation du terebron en jeu est traduite par les différents puzzles présentés au joueur.\n\nLe jeu se joue sur une grille composée de cellules. Le but du jeu est de réussir à toucher des points vitaux en tirant des lasers depuis les bords de la grille.\n\nLe laser peut également interagir avec différents éléments comme des miroirs, ce qui va venir progressivement complexifier le jeu.\n\nLe principe du jeu se décline en deux variantes.\n\nTout d'abord, le mode ouvert où l'intérieur de la grille est visible et le but est de toucher les points vitaux un certain nombre de fois ou dans un certain ordre :"
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/terebron/open_small.gif",
+        "alt": "Terebron ouvert"
+        },        
+        {
+            "type": "paragraph",
+            "text": "Il y a ensuite le mode fermé, dans lequel l'intérieur de la grille n'est pas visible et le joueur doit alors utiliser les informations données par les lasers afin de trouver où se situent les points vitaux :"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/terebron/close_small.gif",
+            "alt": "Terebron fermé"
         },
         {
             "type": "paragraph",
-            "text": "C'est le deuxième paragraphe."
+            "text": "Quand je suis arrivé sur le projet, la plupart des mécaniques de base comme le laser ou les miroirs étaient déjà conceptualisés et programmés. Cependant, je suis arrivé à un moment de changement de direction important pour le projet.\n\nEn effet, à la base, le jeu était pensé pour avoir uniquement le mode fermé et devait être en multijoueur avec chaque joueur devant trouver les points vitaux dans les terebrons de ses adversaires.\n\nDevant la difficulté de mettre en place un jeu multijoueur, il a été décidé de se concentrer sur un jeu solo avec une histoire.\n\nEn tant que game designer, j'ai donc beaucoup participé au développement du mode ouvert. Notamment en définissant les règles exactes de son fonctionnement et en créant des niveaux qui exploitent bien ce nouveau mode de jeu.\n\nJ'ai également été chargé de créer de nouvelles mécaniques comme les téléporteurs par exemple.\n\nC'était aussi moi qui s'occupais de rédiger et de tenir à jour la majeure partie des documents de design.\n\nComme level designer, j'ai aussi passé une grande partie de mon temps à créer des dizaines niveaux que ce soit des niveaux ouverts ou fermés.\n\nJe faisais plusieurs types de niveaux.\n\nTout d'abord les niveaux de packs. Ce sont des niveaux qui ne sont pas rattachés à l'histoire et qui se jouent indépendamment de celle-ci. Ces niveaux sont thématiques et tournent généralement autour d'une même mécanique."
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/theme_level.jpg",
+            "alt": "Niveau thématique"
+        },
+        {
+            "type": "paragraph",
+            "text": "Il a ensuite les niveaux de l'histoire qui doivent avoir une forme et/ou un concept qui est en lien avec l'histoire en cours. Ce sont des niveaux composés de plusieurs terebrons et souvent entrecoupés par des dialogues."
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/story_level.jpg",
+            "alt": "Niveau de l'histoire"
+        },
+        {
+            "type":"paragraph",
+            "text":"J'ai également beaucoup travaillé sur l'UX et L'UI du jeu. J'ai notamment été chargé de conceptualiser le tutoriel qui comprend donc les niveaux en eux-mêmes ainsi que les panneaux d'explications qui apparaissent durant ces niveaux.\n\nPour les niveaux, il fallait faire en sorte qu'ils soient très simples et qu'ils montrent à chaque fois différents cas de figure d'une mécanique bien spécifique.\n\nQuant aux panneaux, ils devaient être le plus concis possible tout en restant clairs."
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/tuto.png",
+            "alt": "Fenêtre de tutoriel"
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/tuto_level.jpg",
+            "alt": "Niveau de tutoriel"
+        },
+        {
+            "type":"paragraph",
+            "text":"J'ai aussi passé beaucoup de temps à redesigner l'interface de jeu qui est passée par de nombreuses itérations au cours des 18 mois que j'ai passé là-bas.\n\nL'interface de départ était très peu lisible et laissait assez peu de place à l'espace de jeu en lui-même."
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/old_game_screen.png",
+            "alt": "Ancienne interface"
+        },
+        {
+            "type":"paragraph",
+            "text": "Au fur et à mesure, certaines mécaniques ont évolué ou ont été supprimées. Cela m'a donné la possibilité de repenser l'interface afin de la simplifier en enlevant des fonctionnalités dispensables."
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/main_screen.jpg",
+            "alt": "Deuxième itération d'interface"
+        },
+        {
+            "type":"paragraph",
+            "text":"En travaillant sur l'adaptation de l'interface pour la version mobile, j'ai trouvé une solution pour simplifier le système d'hypothèses qui était assez fastidieux à utiliser.\n\nCela a permis de simplifier encore l'interface et de doubler la zone de jeu afin d'avoir le résultat que l'on a aujourd'hui :"
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/new_ui_1.jpg",
+            "alt": "Interface finale 1"
+        },
+        {
+            "type": "image",
+            "src": "images/terebron/new_ui_2.jpg",
+            "alt": "Interface finale 2"
         }
     ]
 }

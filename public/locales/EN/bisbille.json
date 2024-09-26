@@ -1,51 +1,44 @@
 {
     "title": "Bisbille",
     "subtitle" : "A confrontation game where you push and pull your opponents",
-    "category": "Versus/Local multiplayer",
-    "role" : "Game Designer/QA",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"YtXO1AtSdAc"
     },
     "documents" : [
         {
         "type": "download",
-        "label": "See the GDD",
-        "url": "path/to/document.pdf"
+        "label": "Read the GDD",
+        "url": "documents/bisbille/Game Design Document Bisbille.pdf"
         },
         {
             "type": "download",
-            "label": "See the LDD",
-            "url": "path/to/document.pdf"
-            }
+            "label": "Read the LDD",
+            "url": "documents/bisbille/Level Design Document V2.pdf"
+        }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Bisbille is a local multiplayer game where players compete to be the last survivor.\n\nTo be the last one standing, players must send their opponents into holes scattered throughout each level.\n\nPlayers can move freely with the left stick of the controller, and with the right stick, they have a targeting cone that allows them to use several abilities:\n\n- Attraction: when a player uses this ability, if an opponent is within the targeting cone, they will be violently pulled toward the player. The pulled player also becomes intangible, meaning they can pass through the player who pulled them.\n\nThis allows, for example, a player to stand near a hole and pull an opponent into it without risking being dragged in as well.\n\n- Repulsion: conversely, repulsion allows players to push opponents within their targeting cone away. This is often the safest way to get rid of opponents, but also the most predictable."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/bisbille/bisbille_push_and_pull.gif",
+        "alt": "Demonstrate push and pull"
+        },        
+        {
+            "type": "paragraph",
+            "text": "Dash: this allows the player to move very quickly in a direction. During the dash, the player is also invulnerable, enabling them to dodge opponent attacks or pass over holes.\n\nIf a player dashing collides with an opponent, the latter will be violently propelled away. This makes the dash an offensive ability as well."
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/bisbille/bisbille_dash.gif",
+            "alt": "Demonstrate the dash"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "In this project, as a Game Designer, I spent the first part of the project participating in defining the main mechanics.\n\nThat is to say, defining attraction, repulsion, dash, and all the characteristics that compose them.\n\nThese characteristics include, in particular, the power of attraction and repulsion, the cooldown time of these abilities, etc.\n\nThere are also characteristics related to the player, such as their movement speed or the size of their field of view.\n\nOnce all these parameters were established, I spent the rest of the project with another teammate testing dozens of different configurations of these parameters until we achieved a satisfactory result.\n\nOne of the pillars of the game was to have a fast-paced gameplay. Therefore, things needed to move quickly, and the abilities had to have strong impact.\n\nHowever, it was still necessary to balance everything so that the game wasn't completely chaotic.\n\nIn addition to testing to determine the values of these atomic parameters, I was also responsible for testing the different levels to provide feedback to the Level Designers.\n\nThis helped highlight the most enjoyable patterns and correct levels that were less balanced or less fun."
         }
     ]
 }

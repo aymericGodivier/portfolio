@@ -10,7 +10,7 @@
       "title":"Mes Projets",
       "linkLabel":"Plus d'infos",
       "filterName1":"Rôles",
-      "filterName2":"Type de projet",
+      "filterName2":"Type",
       "filterLabels1":["Tous","Game Designer","Testeur QA","Level Designer","UX Designer","Programmeur"],
       "filterLabels2":["Tous","Jeux","Prototypes","Web"]
     },
@@ -34,7 +34,7 @@
       "tags" : ["web","Prog","QA"]
     },
     {
-      "image": "images/kasa/kasa_home.png",
+      "image": "images/kasa/LOGO_KASA.png",
       "title": "Kasa",
       "type": "Site web de location",
       "description": "Dans le cadre de ma formation, à partir d'une maquette Figma et d'un backend existant, j'ai réalisé en React tout le front-end du site.",

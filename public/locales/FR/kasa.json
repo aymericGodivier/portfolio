@@ -1,51 +1,45 @@
 {
     "title": "Kasa",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Création d'un front-end en React",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"carrousel",
+        "images":[
+                "images/kasa/kasa_home.png",
+                "images/kasa/kasa_about.png",
+                "images/kasa/kasa_location_1.png",
+                "images/kasa/kasa_location_2.png",
+                "images/kasa/kasa_error_404.png"
+        ]
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
+            "type": "link",
+            "label": "Voir sur GitHub",
+            "url": "https://github.com/aymericGodivier/kasa"
             }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
-        },
-        {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
-        },
-        {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "text": "Sur ce projet réalisé pendant ma formation, je devais créer en React la totalité du front-end du site. J'avais à ma disposition un backend avec toutes les données que je devais intégrer avec mon front-end."
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "Le site est composé d'une page d'accueil, d'une page A propos et la page d'erreur 404 est personnalisée. Les pages de chaque logements sont générées dynamiquement à partir des données du backend."
+        },
+        {
+          "type": "paragraph",
+            "text": "J'ai également eu l'occasion de créer quelques tests automatisés avec Vitest dont vous vouyez un exemple ci-dessous."  
+        },
+        {
+            "type":"image",
+            "src":"images/kasa/kasa_script.png",
+            "alt": "script d'automatisation"
+        },
+        {
+            "type":"image",
+            "src":"images/kasa/kasa_test.png",
+            "alt": "résultat de test"
         }
     ]
 }

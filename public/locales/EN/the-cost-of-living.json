@@ -1,51 +1,58 @@
 {
     "title": "The Cost of Living",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "A 2D platformer where you play a little robot who goes to save his sweetheart",
     "capsule":{
         "type":"image",
-        "src":"path/to/image.png"
+        "src":"images/the-cost-of-living/titre.png",
+        "alt":"Game title"
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "type": "link",
+            "label": "Download the game",
+            "url": "https://adriensnow.itch.io/the-cost-of-living"
+        }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "The Cost of Living is a game created in a group for Ludum Dare 43 with the theme \"sacrifices must be made.\" \n\nThe player embodies a robot whose goal is to bring back energy to save his girlfriend. Throughout the levels, the player will acquire different powers such as a dash or a double jump. \n\nHowever, the player can only have two powers at the same time. Therefore, he must choose which power to sacrifice each time he acquires a new one. \n\nEach power consumes a certain amount of energy upon use. The player must manage his energy to avoid dropping to 0."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
-        },
-        {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "src": "images/the-cost-of-living/gameplay.png",
+        "alt": "Gameplay"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "Based on the theme \"sacrifices must be made,\" the idea of having to sacrifice abilities to gain others quickly emerged.\n\nGiven the limited time available and the fact that we were all relatively inexperienced at that moment, the choice to make a 2D platformer game quickly became obvious.\n\nWe then decided on the abilities that the player could collect. There are four in total:\n\nThe dash: which allows passing over certain obstacles.\n\nThe flamethrower: which allows burning cardboard boxes.\n\nThe double jump: which allows reaching higher places.\n\nClimbing: which allows climbing walls.\n\nThe game consists of three levels, each granting access to new abilities.\n\nSince the player can end up with different combinations of skills, the levels had to be designed to be feasible in the possible configurations when entering the level.\n\nAdditionally, given that each use of an ability costs energy, the levels also needed to be designed taking into account how many times the player would need to use their abilities.\n\nOn this project, I primarily worked on the level design of the first level and the integration of assets throughout all the levels.\n\nThe player starts with level 1:"
+        },
+        {
+            "type": "image",
+            "src": "images/the-cost-of-living/level_1.png",
+            "alt": "Level 1"
+        },
+        {
+            "type":"paragraph",
+            "text":"This level consists of a tutorial that explains the controls. \n\nThe player then acquires his first ability: the dash, which allows him to jump over the gaps along the path. \n\nAfter that, the player obtains the flamethrower, which enables him to burn the boxes in his way. \n\nThe player then has the choice to either go underneath the conveyor belt and use the dash or burn a box to create a staircase and go over it. \n\nThe player then reaches the end of the level and proceeds to level 2:"
+        },
+        {
+            "type": "image",
+            "src": "images/the-cost-of-living/level_2.png",
+            "alt": "Level 2"
+        },
+        {
+            "type":"paragraph",
+            "text":"This level begins with the appearance of a new ability: climbing. \n\nThe player must then choose whether to get rid of the dash or the flamethrower. \n\nIf he replaces the dash, the player has the option to burn the boxes, go underneath the mailboxes and the bench, climb over the boxes, or create a staircase by burning one of them. \n\nHe can then burn the vertical box and ascend the wooden \"steps.\" Before reaching the new ability choice: the double jump. \n\nFor this first part, if the player has replaced the flamethrower, he must climb the box, go over the mailboxes and the bench. Then he must jump over the puddle and climb the wooden wall on the left before also arriving at the double jump. \n\nAt this point, the player must again choose which ability to replace with the double jump. Depending on his choices, he can end up with several combinations: \n\nDash + Double jump \n\nDouble jump + Climbing \n\nDouble jump + Flamethrower \n\nThe flamethrower is not needed to finish the level, which consists of a platform course that requires the double jump. Some passages allow the player to go over obstacles using climbing or to jump over gaps using the dash. \n\nThe player eventually reaches the end and proceeds to level 3:"
+        },
+        {
+            "type": "image",
+            "src": "images/the-cost-of-living/level_3.png",
+            "alt": "Level 3"
+        },
+        {
+            "type":"paragraph",
+            "text":"In this level, three paths are directly available to the player, which are accessible depending on the combination of abilities the player has at that moment. \n\nThe upper path is accessible with the climbing + double jump combo, allowing the player to traverse the level using platforms and climbing walls. \n\nThe middle path is the most direct but one of the most difficult, accessible with the dash + double jump combo. The dash allows the player to pass through the waterfall, and the double jump enables the player to dodge the acorns that rush toward him and kill him on contact. \n\nThe lower path is the simplest and is accessible with the double jump + flamethrower combo. \n\nThe player must burn the large box and then follow the platform course by burning the boxes that block the way until reaching the end of the level. \n\nThe player has finished the level, arrives at the end screen, and the game ends."
         }
     ]
 }

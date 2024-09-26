@@ -1,51 +1,65 @@
 {
     "title": "Jekyll and Hyde",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "A walking sim that revisits \"The Strange Case of Dr. Jekyll and Mr. Hyde\"",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"carrousel",
+        "images":[
+                "images/jekyll-and-hyde/main_image.jpg",
+                "images/jekyll-and-hyde/lab.jpg",
+                "images/jekyll-and-hyde/vision_1.jpg"                
+        ]
+
     },
     "documents" : [
-        {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+        
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
-        },
-        {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
-        },
-        {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "text": "Jekyll and Hyde is a narrative walking sim prototype that retells the story of the novella \"The Strange Case of Dr. Jekyll and Mr. Hyde\" but from a different perspective.\n\nIn this game, the player takes on the role of Dr. Jekyll, who has died and finds himself in purgatory, where an entity forces him to relive certain events. He must revisit scenes from his life where he let his second personality, Mr. Hyde, take control.\n\nThe player will then have the choice to either accept responsibility for his actions as Jekyll or Hyde or deny it and blame his other personality.\n\nThe player can explore various environments and interact with certain objects to gather more information about the context of the scene or trigger dialogues."
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "As a Game Designer, I helped define how the player would interact with the environment, what form the dialogues would take, and how they would be triggered. "
+        },
+        {
+            "type": "image",
+            "src": "images/jekyll-and-hyde/items.jpg",
+            "alt": "Interacting with objects"
+        },
+        {
+            "type": "image",
+            "src": "images/jekyll-and-hyde/journal.jpg",
+            "alt": "Dialogue after interaction"
+        },
+        {
+            "type":"paragraph",
+            "text": "I also designed the moral alignment system, which places the player along two axes:\n\n- Jekyll / Hyde Axis: This corresponds to how much the player assumes one personality over the other. \n\nFor example, being 100% aligned with Hyde means assuming that Hyde is not just a manifestation of desires, but actually the core personality of Dr. Jekyll.\n\nConversely, being 100% aligned with Jekyll reflects the belief that Hyde has nothing to do with Dr. Jekyll's primary personality.\n\n- Denial / Acceptance Axis: This axis reflects whether or not the player acknowledges responsibility for the events revisited through the visions.\n\nFor instance, with a 100% Denial alignment, the player may find excuses to downplay the consequences of their actions or outright deny the facts.\n\nThe player can influence their alignment through choices that appear at specific moments in the game, as well as by responding to the question posed by the entity at the end of each scene:"
+        },
+        {
+            "type": "image",
+            "src": "images/jekyll-and-hyde/choice_system.jpg",
+            "alt": "Contextual choice"
+        },
+        {
+            "type": "image",
+            "src": "images/jekyll-and-hyde/final_choice.jpg",
+            "alt": "Dialogue choice"
+        },
+        {
+            "type":"paragraph",
+            "text": "Although it is not present in the prototype, the alignment system is intended to unlock different endings for the player based on their final alignment:"
+        },
+        {
+            "type": "image",
+            "src": "images/jekyll-and-hyde/charte_alignement.png",
+            "alt": "Alignement chart"
+        },
+        {
+            "type":"paragraph",
+            "text":"As a Programmer, I was responsible for coding all the systems in the game.\n\nThis includes:\n\n- A dialogue system with an associated audio track, as all the dialogues were voiced.\n\n- The interaction system for objects.\n\n- Scripted events such as cutscenes using the Timeline.\n\n- The system that tracks alignment progression and displays it when needed.\n\nI was also in charge of integrating the 3D assets."
         }
+        
+        
     ]
 }

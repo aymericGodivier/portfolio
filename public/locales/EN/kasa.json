@@ -1,51 +1,45 @@
 {
     "title": "Kasa",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Creation of a front-end in React",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"carrousel",
+        "images":[
+                "images/kasa/kasa_home.png",
+                "images/kasa/kasa_about.png",
+                "images/kasa/kasa_location_1.png",
+                "images/kasa/kasa_location_2.png",
+                "images/kasa/kasa_error_404.png"
+        ]
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
+            "type": "link",
+            "label": "See on GitHub",
+            "url": "https://github.com/aymericGodivier/kasa"
             }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
-        },
-        {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
-        },
-        {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "text": "For this project completed during my training, I had to create the entire front-end of the website in React. I had access to a backend with all the data that I needed to integrate into my front-end."
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "The site consists of a homepage, an About page, and a customized 404 error page. The pages for each property are dynamically generated from the backend data."
+        },
+        {
+          "type": "paragraph",
+            "text": "I also had the opportunity to create some automated tests with Vitest, an example of which you can see below."  
+        },
+        {
+            "type":"image",
+            "src":"images/kasa/kasa_script.png",
+            "alt": "automated script"
+        },
+        {
+            "type":"image",
+            "src":"images/kasa/kasa_test.png",
+            "alt": "tests result"
         }
     ]
 }

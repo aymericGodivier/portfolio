@@ -1,51 +1,49 @@
 {
     "title": "Tomsen",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "A test strategy for a banking application",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"carrousel",
+        "images":[
+                "images/tomsen/tomsen_login.jpg",
+                "images/tomsen/tomsen_register.png",
+                "images/tomsen/tomsen_accueil.png",
+                "images/tomsen/tomsen_suivi.png"
+        ]
+
     },
     "documents" : [
         {
         "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
+        "label": "The strategy",
+        "url": "documents/tomsen/strategie.pdf"
         },
         {
             "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "label": "Requirements review",
+            "url": "documents/tomsen/revue_exigences.xlsx"
+        },
+        {
+            "type": "download",
+            "label": "Test plan document",
+            "url": "documents/tomsen/cahier_de_recette.xlsx"
+        }
+        
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Tomsen is a project I completed during my software tester training. My task was to design the entire test strategy. This included the requirement review, the test case document with the planned schedule for test scenarios, as well as a document describing the overall test strategy.\n\nTo create these documents, I had a mockup of the application (see carousel) and the list of functional specifications (see below) at my disposal."
         },
         {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+            "type": "image",
+            "src": "images/tomsen/tomsen_planning.png",
+            "alt": "exigences et planning des sprints"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
-        },
-        {
-            "type": "paragraph",
-            "text": "It's the second paragraph."
-        }
+            "type": "image",
+            "src": "images/tomsen/tomsen_exigence.png",
+            "alt": "détail d'une exigence"
+        }        
+        
     ]
 }

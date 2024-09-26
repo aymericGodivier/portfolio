@@ -1,51 +1,49 @@
 {
     "title": "Tomsen",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Une stratégie de tests pour une application banquaire",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"carrousel",
+        "images":[
+                "images/tomsen/tomsen_login.jpg",
+                "images/tomsen/tomsen_register.png",
+                "images/tomsen/tomsen_accueil.png",
+                "images/tomsen/tomsen_suivi.png"
+        ]
+
     },
     "documents" : [
         {
         "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
+        "label": "Voir la stratégie",
+        "url": "documents/tomsen/strategie.pdf"
         },
         {
             "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "label": "Revue d'exigences",
+            "url": "documents/tomsen/revue_exigences.xlsx"
+        },
+        {
+            "type": "download",
+            "label": "Cahier de recette",
+            "url": "documents/tomsen/cahier_de_recette.xlsx"
+        }
+        
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Tomsen est un projet que j'ai réalisé lors de ma formation de testeur logiciel. J'avais pour mission de concevoir la totalité de la stratégie de test. Ce qui inclus la revue d'exigences, le cahier de recette avec le planning prévu des scénarios de tests ainsi qu'un document décrivant la stratégie générale de tests.\nCette stratégie de tests comporte 35 cas de tests, répartis entre 17 scénarios.\n\nPour réaliser ces documents, j'avais à ma disposition une maquette de l'application (voir carrousel) ainsi que la liste des spécifications fonctionnelles répartis dans les différents sprints de développement (voir ci-dessous).\n Le planning de développement étant déjà prévu, je devais adapter le planning de test à celui du développement."
         },
         {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+            "type": "image",
+            "src": "images/tomsen/tomsen_planning.png",
+            "alt": "exigences et planning des sprints"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
-        },
-        {
-            "type": "paragraph",
-            "text": "It's the second paragraph."
-        }
+            "type": "image",
+            "src": "images/tomsen/tomsen_exigence.png",
+            "alt": "détail d'une exigence"
+        }        
+        
     ]
 }

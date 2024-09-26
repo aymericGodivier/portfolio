@@ -1,51 +1,58 @@
 {
     "title": "The Cost of Living",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Un plateformer 2D où vous incarnez un petit robot qui part sauver sa dulcinée",
     "capsule":{
         "type":"image",
-        "src":"path/to/image.png"
+        "src":"images/the-cost-of-living/titre.png",
+        "alt":"Titre du jeu"
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "type": "link",
+            "label": "Télécharger le jeu",
+            "url": "https://adriensnow.itch.io/the-cost-of-living"
+        }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "The Cost of Living est un jeu réalisé en groupe pour la Ludum Dare 43 avec le thème \"sacrifices must be made\".\n\nLe joueur incarne un robot qui a pour but de ramener de l'énergie pour sauver sa petite amie. Au cours des niveaux, le joueur récupèrera différents pouvoirs comme un dash ou un double saut.\n\nCependant, le joueur ne peux avoir que deux pouvoir en même temps. Il doit donc choisir à chaque nouveau pouvoir récupéré lequel il sacrifie.\n\nChaque pouvoir consomme un certain montant d'énergie à l'utilisation. Le joueur doit ainsi gérer son énergie pour ne pas tomber à 0."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
-        },
-        {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "src": "images/the-cost-of-living/gameplay.png",
+        "alt": "Gameplay du jeu"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "À partir du thème \"sacrifices must be made\" l'idée de devoir sacrifier des capacités pour en gagner d'autres est rapidement arrivée.\n\nÉtant donné le peu de temps à disposition et le fait que nous étions tous relativement novices à ce moment-là, le choix de faire un jeu de plateforme 2D s'est vite imposé.\n\nNous avons ensuite décidé des compétences que le joueur pourra récupérer. Elles sont au nombre de quatre :\n\nLe dash : qui permet de passer au-dessus de certains obstacles.\n\nLe lance-flammes : qui permet de bruler les boites en cartons.\n\nLe double saut : qui permet d'atteindre des endroits plus en hauteur.\n\nL'escalade : qui permet de grimper sur les murs.\n\nLe jeu est composé de trois niveaux qui donnent accès à chaque fois à de nouvelles capacités.\n\nComme le joueur peut se retrouver avec des combinaisons de compétences différentes, les niveaux devaient être conçus pour être faisables dans les configurations possibles au moment d'arriver dans le niveau.\n\nDe plus, étant donné que chaque utilisation de capacité coûte de l'énergie, il fallait également designer les niveaux en prenant en compte le nombre de fois où le joueur devrait utiliser ses capacités.\n\nSur ce projet, j'ai principalement travaillé sur le level design du niveau 1 et l'intégration des assets dans la totalité des niveaux.\n\nLe joueur commence donc par le niveau 1 : "
+        },
+        {
+            "type": "image",
+            "src": "images/the-cost-of-living/level_1.png",
+            "alt": "Niveau 1"
+        },
+        {
+            "type":"paragraph",
+            "text":"Ce niveau se compose d'un tutoriel qui explique les contrôles.\n\nLe joueur récupère ensuite sa première capacité : le dash, qui lui permet de passer au-dessus des trous disposés sur le chemin.\n\nAprès cela, le joueur récupère le lance-flamme qui lui permet de bruler les cartons sur son chemin.\n\nLe joueur a ensuite le choix entre passer par-dessous le tapis roulant et utiliser le dash ou bruler un carton pour se construire un escalier et passer au-dessus.\n\nLe joueur atteint ensuite la fin du niveau et passe au niveau 2 : "
+        },
+        {
+            "type": "image",
+            "src": "images/the-cost-of-living/level_2.png",
+            "alt": "Niveau 2"
+        },
+        {
+            "type":"paragraph",
+            "text":"Ce niveau commence par l'apparition d'une nouvelle capacité : l'escalade.\n\nLe joueur doit alors choisir s'il se débarrasse du dash ou du lance-flamme.\n\nS'il remplace le dash, le joueur a la possibilité de bruler les cartons, passer en dessous des boites aux lettres et du banc escalader les cartons ou se créer un escalier en n'en brulant un.\n\nIl peut ensuite bruler le carton vertical et monter les \"marches\" en bois. Avant d'arriver au nouveau choix de capacité : le double saut.\n\nPour cette première partie, si le joueur a remplacé le lance-flamme, il doit escalader le carton, passer au-dessus des boites aux lettres et du banc. Puis il doit sauter au-dessus de la flaque et escalader le mur en bois sur la gauche avant d'arriver aussi devant le double saut.\n\nÀ ce moment-là, le joueur doit encore choisir quelle compétence remplacer par le double saut. Selon ses choix, il peut se retrouver avec plusieurs combinaisons :\n\nDash + Double saut\n\nDouble saut + Escalade\n\nDouble saut + Lance-Flamme\n\nLe lance-flamme n'est pas utile pour finir le niveau qui consiste en un parcours de plateformes qui nécessitent le double saut. Certains passages permettent de passer au-dessus d'obstacles grâce à l'escalade ou de passer au-dessus des trous grâce au dash.\n\nLe joueur fini par arriver au bout et passe donc au niveau 3 :"
+        },
+        {
+            "type": "image",
+            "src": "images/the-cost-of-living/level_3.png",
+            "alt": "Niveau 3"
+        },
+        {
+            "type":"paragraph",
+            "text":"Dans ce niveau, trois chemins s'offrent directement au joueur et qui sont accessibles selon la combinaison de capacités que possède le joueur à ce moment-là.\n\nLe chemin du haut est accessible grâce au combo escalade + double saut, ce qui permet au joueur via des plateformes et l'escalade de murs de traverser le niveau.\n\nLe chemin du milieu est le plus direct, mais un des plus difficiles et est accessible avec le combo dash + double saut. Le dash permet de passer à travers la chute d'eau et le double saut permet d'esquiver les glands qui foncent vers le joueur et le tue s'ils le touchent.\n\nLe chemin du bas est le plus simple et est accessible grâce au combo double saut + lance-flamme.\n\nLe joueur doit bruler le gros carton puis suivre le parcours de plateformes en brulant les cartons qui bloquent le passage jusqu'à atteindre la fin du niveau.\n\nLe joueur a fini le niveau, il arrive sur l'écran de fin et le jeu se termine."
         }
     ]
 }

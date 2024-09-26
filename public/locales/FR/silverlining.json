@@ -1,51 +1,63 @@
 {
     "title": "SilverLining",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Un RTS où l'on ne dirige pas directement ses unités",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"GGnEzqNwqJg"
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
+            "type": "link",
+            "label": "Télécharger le jeu",
+            "url": "https://gamagora.itch.io/silverlining"
         },
         {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "type": "link",
+            "label": "Voir le site",
+            "url": "https://silverlininggame.wixsite.com/home"
+        }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "SilverLining est un jeu de stratégie en temps réel qui se joue en un contre un dans lequel vous pouvez incarner les Sycamoriens, proche de la nature ou les Arcanistes usant du pouvoir des arcanes.\n\nContrairement à la plupart des STR, les joueurs ne peuvent contrôler directement les unités. Quand une unité est créée, elle se dirige par le chemin le plus court jusqu'à la base adverse dans le but de la détruire.\n\nLes joueurs peuvent cependant bloquer des passages en construisant des obstacles ou des ponts afin de modifier le passage par lequel les unités peuvent passer et ainsi les rediriger vers des points d'intérêts.\n\nCela lui permettra de capturer différents points d'intérêts comme des mines, des casernes ou à l'inverse, envoyer les unités adverses dans un piège mortel."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/silverlining/gameplay.png",
+        "alt": "Vue du jeu"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
-        },
+            "type": "image",
+            "src": "images/silverlining/combat.jpg",
+            "alt": "Combat entre unités"
+        },        
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "Ce projet a été réalisé en groupe dans le cadre de mon année de DU de Level Design à Gamagora. Gamagora a pour habitude de mettre en place le Gamagora Game Show qui présente trois jeux créés durant le dernier trimestre de l'année scolaire.\n\nCes projets sont issus d'idées des étudiants et doivent passer plusieurs étapes de validation afin d'arriver en phase finale. Dans ce contexte, chaque étudiant supporte un ou plusieurs projets et participe à ses premières phases de design jusqu'à ce qu'il soit éliminé ou arrive en phase finale.\n\nEn tant que Game Designer, j'ai beaucoup œuvré pour aider à raffiner les mécaniques et en ajouter de nouvelles. Bien que les décisions majeures étaient prises collectivement, afin d'être plus efficace, chaque membre du groupe, avait son domaine d'expertise.\n\nDe mon côté, j'étais responsable du Level Design et de toutes les mécaniques qui s'y rattachent. J'ai également participé à l'équilibrage des unités en testant différentes combinaisons de coûts de production, de PV et de points d'attaque.\n\nEn tant que Game et Level Designer, j'ai également été chargé de rédiger de nombreux documents de design à destination des programmeurs.\n\nDans le but d'optimiser la gestion de projet et la nomenclature, un diagramme de priorité de développement a été mis en place et qui devait être gardé à jour."
+        },
+        {
+            "type": "image",
+            "src": "images/silverlining/diagramme_gestion_projet.png",
+            "alt": "Diagramme des liens entre documents"
+        },
+        {
+            "type":"paragraph",
+            "text":"En termes de Level Design pur, j'ai travaillé sur plusieurs modules qui composent la carte du jeu.\n\nLes modules étaient d'abord créés à partir de pièces de chemins standardisées puis étaient testées directement dans Unity.\n\nUne fois les modules terminés, ils étaient assemblés entre eux et nous pouvions ainsi tester plusieurs configurations de la carte jusqu'à obtenir une première version satisfaisante :"
+        },
+        {
+            "type": "image",
+            "src": "images/silverlining/proto_map.png",
+            "alt": "Prototype de la carte du jeu"
+        },
+        {
+            "type":"paragraph",
+            "text":"Sur la carte ci-dessus, je suis notamment responsable des modules qui composent l'îlot central ainsi que du module central de la partie basse de la carte.\n\nCes modules ont ensuite légèrement évolués et changés de place pour donner la carte finale ci-dessous :"
+        },
+        {
+            "type": "image",
+            "src": "images/silverlining/map_complete.webp",
+            "alt": "Carte finale du jeu"
         }
     ]
 }

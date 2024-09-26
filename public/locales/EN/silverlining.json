@@ -1,51 +1,63 @@
 {
     "title": "SilverLining",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "A RTS where you do not directly control your units",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"GGnEzqNwqJg"
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
+            "type": "link",
+            "label": "Download the game",
+            "url": "https://gamagora.itch.io/silverlining"
         },
         {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "type": "link",
+            "label": "Website",
+            "url": "https://silverlininggame.wixsite.com/home"
+        }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "SilverLining is a real-time strategy game played one-on-one, where you can embody the Sycamoreans, close to nature, or the Arcanists who wield the power of the arcane.\n\nUnlike most RTS games, players do not directly control their units. When a unit is created, it heads for the enemy base along the shortest path with the aim of destroying it.\n\nHowever, players can block passages by constructing obstacles or bridges to modify the paths that units can take, redirecting them towards points of interest.\n\nThis allows them to capture various points of interest like mines and barracks or, conversely, to send enemy units into a deadly trap."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/silverlining/gameplay.png",
+        "alt": "Global game view"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
-        },
+            "type": "image",
+            "src": "images/silverlining/combat.jpg",
+            "alt": "Combat gameplay"
+        },        
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "This project was carried out in a group as part of my Level Design year at Gamagora. Gamagora has a tradition of hosting the Gamagora Game Show, which showcases three games created during the last trimester of the school year.\n\nThese projects originate from student ideas and must pass through several validation stages before reaching the final phase. In this context, each student supports one or more projects and participates in their initial design phases until they are eliminated or reach the final stage.\n\nAs a Game Designer, I worked extensively to help refine mechanics and add new ones. Although major decisions were made collectively, to be more efficient, each group member had their area of expertise.\n\nOn my end, I was responsible for Level Design and all related mechanics. I also contributed to balancing the units by testing different combinations of production costs, HP, and attack points.\n\nAs a Game and Level Designer, I was also tasked with writing numerous design documents for the programmers.\n\nTo optimize project management and naming conventions, a development priority diagram was established and had to be kept up to date."
+        },
+        {
+            "type": "image",
+            "src": "images/silverlining/diagramme_gestion_projet.png",
+            "alt": "Diagram of links between documents"
+        },
+        {
+            "type":"paragraph",
+            "text":"In terms of pure Level Design, I worked on several modules that make up the game's map.\n\nThe modules were initially created from standardized path pieces and then tested directly in Unity.\n\nOnce the modules were completed, they were assembled together, allowing us to test multiple configurations of the map until we achieved a satisfactory first version:"
+        },
+        {
+            "type": "image",
+            "src": "images/silverlining/proto_map.png",
+            "alt": " Map prototype"
+        },
+        {
+            "type":"paragraph",
+            "text":"On the map above, I am particularly responsible for the modules that make up the central island as well as the central module of the lower part of the map.\n\nThese modules were then slightly modified and repositioned to create the final map below:"
+        },
+        {
+            "type": "image",
+            "src": "images/silverlining/map_complete.webp",
+            "alt": "Finale map"
         }
     ]
 }

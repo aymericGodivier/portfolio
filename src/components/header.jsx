@@ -21,7 +21,7 @@ export function Header(){
                         
             <nav>
                 <li>
-                    <NavLink to="/" className="nav-link" activeclassname="active">
+                    <NavLink to="/#my-projects" className="nav-link" activeclassname="active">
                         {t('header.nav.home')}
                     </NavLink>
                 </li>

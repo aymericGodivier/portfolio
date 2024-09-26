@@ -1,51 +1,46 @@
 {
     "title": "Alice",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Une aventure type livre dont vous êtes le héros dans l'univers d'Alice au pays des merveilles",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type": "video",
+        "src": "images/alice/05_gameplay.mp4"
     },
     "documents" : [
-        {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+        
     ],
     "content": [
         {
-        "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+            "type": "paragraph",
+            "text": "Alice est un jeu narratif inspiré des livres dont vous êtes le héros où le joueur doit régulièrement faire différents choix pour progresser dans l'aventure.\n\nL'aventure se déroule dans l'univers d'Alice aux pays des merveilles et le joueur incarne Alice qui devra retrouver sa sœur qui s'est perdue dans le pays des merveilles.\n\nDans le jeu, le joueur effectue des actions et se déplace en sélectionnant un des choix qui se présente à lui.\n\nLe joueur rencontrera différents personnages qui vont lui faire passer des épreuves que le joueur devra surmonter afin de progresser. Ces épreuves prennent la forme de mini jeux où le joueur manipule du texte de différentes façons."
         },
         {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+            "type": "image",
+            "src": "images/alice/alice_general_view.jpg",
+            "alt": "Image générale du jeu"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
+            "type":"paragraph",
+            "text": "Sur ce projet, j'ai principalement programmé sur Unreal toutes les mécaniques, que ce soit l'interface, la caméra ou le déplacement.\n\nJ'ai aussi travaillé sur la conception et la programmation des différents mini jeux. Il y en a trois en tout et ils sont tous liés à un personnage de l'histoire.\n\nLe premier est un jeu lié au Chat du Cheshire. Étant donné que la principale caractéristique du Chat du Cheshire est de pouvoir se rendre invisible, j'ai conçu un jeu sur le principe de l'encre invisible.\n\nDans ce jeu, le joueur doit utiliser une flamme afin de retrouver les mots qui lui permettent de compléter la phrase."
         },
         {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "type": "video",
+        "src": "images/alice/03_chat.mp4"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "Le deuxième mini jeu est lié au Lapin Blanc qui est généralement associé avec une montre et le fait d'être en retard.\n\nCe mini jeu demande donc au joueur de régler la vitesse de défilement de mots en déplaçant l'aiguille d'une montre puis en stoppant au bon moment pour former des mots."
+        },
+        {
+            "type": "video",
+            "src": "images/alice/04_lapin.mp4"
+        },
+        {
+            "type":"paragraph",
+            "text":"Le troisième mini jeu consiste en l'affrontement avec le Jabberwocky. Dans ce jeu, le joueur doit déplacer les syllabes pour reconstituer la phrase."
+        },
+        {
+            "type": "video",
+            "src": "images/alice/02_jaberwokie.mp4"
         }
     ]
 }

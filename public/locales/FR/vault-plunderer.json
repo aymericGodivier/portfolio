@@ -1,45 +1,63 @@
 {
     "title": "Vault Plunderer",
-    "subtitle" : "Un Escape Game VR",
-    "category": "VR/Escape Game",
-    "role" : "Game Designer",
+    "subtitle" : "Un escape game en VR où vous devez sortir d'une grotte",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"I89btKiMEYk"
     },
     "documents" : [
         {
-        "type": "link",
-        "url" : "https://store.steampowered.com/app/1654230/Terebron"
+        "type": "download",
+        "label":"Télécharger le GDD",
+        "url" : "documents/vault-plunderer/Vault Plunderer GDD.pdf"
         }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "Premier paragraphe"
+        "text": "Vault Plunderer est un escape Game en réalité virtuelle développé sur Unreal Engine 4.\n\nDans le jeu, on incarne un pilleur de tombe qui est tombé par mégarde au fond d'une grotte.\n\nLe joueur découvre alors de mystérieux gants qui lui permettent de manipuler les gigantesques mécanismes autour de lui.\n\nChaque gant est équipé de plusieurs charges qui servent à activer à distance ou à déplacer des mécanismes.\n\nLe joueur doit ensuite reconstituer des circuits d'énergie jusqu'à ouvrir la porte finale.\n\nCe projet a été créé dans le cadre de mon Master et comportait deux contraintes majeures. Il devait s'agir d'un escape game en VR et se passer dans une zone de jeux de 3 x 3 m.\n\nAfin de détourner la deuxième contrainte, nous avons fait en sorte que le joueur puisse interagir avec des éléments en dehors de la plateforme de 3 x 3 où il évolue.\n\nC'est pourquoi nous avons mis en place la mécanique des gants de manipulation."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/vault-plunderer/enigme_roulleaux.gif",
+        "alt": "Manipulation d'un cylindre à distance"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/vault-plunderer/manip_gants.gif",
+            "alt": "Activation d'un interupteur à distance"
         },
         {
             "type": "paragraph",
-            "text": "Deuxième paragraphe"
+            "text": "En tant que Game Designer, j'ai participé à la définition des mécaniques de bases. Cependant, j'ai surtout passé du temps à designer plusieurs énigmes du jeu.\n\nIl y a en tout sept énigmes conceptualisées dont cinq sont présentes dans le jeu. J'ai principalement travaillé sur l'énigme 5, l'énigme du cylindre.\n\nCette énigme a pour but de reconstruire un circuit afin de ramener l'énergie d'un côté à l'autre de la salle.\n\nL'énigme est composée de trois cylindres qui sont recouverts de segments de circuits. Chaque segment a des connecteurs de différentes formes.\n\nL'énergie n'est transmise d'un segment à l'autre que si les connecteurs de même forme sont côte à côte."
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/explication_cylindre.png",
+            "alt": "Explication du fonctionnement"
+        },
+        {
+            "type": "paragraph",
+            "text": "Le but est donc de manipuler les cylindres afin d'aligner les segments de circuit en sachant que le cylindre intérieur, plus petit, peut coulisser sous les cylindres extérieurs et se retrouver d'un côté ou de l'autre."
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/cylindre_2.png",
+            "alt": "Résolution de l'énigme"
+        },
+        {
+            "type": "paragraph",
+            "text": "Le but est donc de manipuler les cylindres afin d'aligner les segments de circuit en sachant que le cylindre intérieur, plus petit, peut coulisser sous les cylindres extérieurs et se retrouver d'un côté ou de l'autre.\n\nSur ce projet, j'ai aussi été chargé de revoir complétement l'énigme 3, celle qui consiste à récupérer un des deux gants.\n\nL'énigme avait d'abord été pensée avec des systèmes de rails qu'il fallait faire tourner afin de reconstituer un chemin jusqu'à la plateforme.\n\nFace aux contraintes de temps, il a fallu abandonner l'idée et j'ai été chargé de repenser l'énigme.\n\nDans sa nouvelle version, l'énigme garde le même principe. Il faut recréer un chemin de rails pour ramener le gant jusqu'à la plateforme.\n\nLe chemin en question est composé de rails fixes avec des trous à certains endroits. Le joueur dispose de morceaux de rails qui servent à combler ces trous afin de reconstituer un seul chemin.\n\nLe joueur doit bien observer la forme des rails pour mettre les bons morceaux aux bons endroits.\n\nCi-dessous une image du prototype de l'énigme et de son résultat en jeu."
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/proto_rails.png",
+            "alt": "Prototype des rails"
+        },
+        {
+            "type": "image",
+            "src": "images/vault-plunderer/rails.png",
+            "alt": "Résultat des rails en jeu"
         }
     ]
 }

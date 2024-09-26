@@ -1,51 +1,52 @@
 {
     "title": "Hikikomori",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Un jeu narratif qui parle de surmonter sa peur de l'extérieur",
     "capsule":{
         "type":"image",
-        "src":"path/to/image.png"
+        "src":"images/hikikomori/titre.png",
+        "alt" :"titre du jeu"
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "type": "link",
+            "label": "Télécharger le jeu",
+            "url": "https://emblask.itch.io/hikikomori"
+        }
+        
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Hikikomori est un jeu dans le lequel vous incarnez Tom, un jeune homme qui a une phobie de l'extérieur et qui reste cloitré chez lui toute la journée.\n\nUn jour, son chat disparait et il doit alors prendre son courage à deux mains pour aller le retrouver.\n\nIl va donc devoir sortir, explorer son quartier, rencontrer ses voisins et surmonter sa peur.\n\nLe joueur dispose ainsi d'une jauge de stress qui augmente au quand Tom se retrouve à l'extérieur de chez lui. Si son stress atteint son maximum, le joueur revient automatiquement à la maison de départ.\n\nLe joueur doit alors marcher jusqu'à des bancs pour faire baisser son stress. Il devra également parler à différents PNJ pour augmenter progressivement sa jauge de stress et ainsi pouvoir explorer plus loin.\n\nCe jeu a été réalisé en équipe à l'occasion de la Global Game Jam de février 2019 avec le thème \"what home means to you\"."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/hikikomori/hikikomori_gameplay.webp",
+        "alt": "Vue de l'intérieur de la maison"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
+            "type": "image",
+            "src": "images/hikikomori/gameplay.png",
+            "alt": "Gameplay de stress"
+        },
+        
+        {
+            "type": "paragraph",
+            "text": "Sur ce projet, en plus d'avoir participé au design des mécaniques de jeu, j'ai principalement réalisé le level design de l'espace de jeu. Il s'agissait de recréer un quartier d'une ville.\n\nJ'ai d'abord commencé par définir un plan du cheminement du joueur. Cela devait prendre en compte les PNJ à qui le joueur doit parler et leur positionnement. En effet, en fonction de son avancée dans le jeu, le joueur ne peut pas atteindre certains PNJ car sa barre de stress se remplit trop vite pour pouvoir les atteindre.\n\nPour la même raison, il a fallu réfléchir au placement et à l'espacement entre chaque banc pour éviter que le joueur puisse passer les segments essentiels du jeu.\n\nUne fois le plan effectué, il a fallu réfléchir aux bâtiments nécessaires pour donner l'impression d'être dans un quartier d'une ville.\n\nJ'avais ensuite besoin des modèles 3D de ces bâtiments. Étant donné le peu de temps à notre disposition, j'ai choisi d'utiliser Asset Forge par Kenney afin de combiner des assets de base pour créer les modèles dont j'avais besoins.  "
         },
         {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/hikikomori/asset_forge_exemple.png",
+            "alt": "Utilisation d'Asset Forge"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text":"Je me suis ensuite occupé de l'intégration de tous ces modèles dans la scène du jeu afin de créer l'environnement final :"
+        },
+        {
+            "type": "image",
+            "src": "images/hikikomori/level.png",
+            "alt": "Vue du niveau"
         }
     ]
 }

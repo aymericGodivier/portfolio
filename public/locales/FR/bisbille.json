@@ -1,51 +1,44 @@
 {
     "title": "Bisbille",
     "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"youtube",
+        "videoId":"YtXO1AtSdAc"
     },
     "documents" : [
         {
         "type": "download",
         "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
+        "url": "documents/bisbille/Game Design Document Bisbille.pdf"
         },
         {
             "type": "download",
             "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "url": "documents/bisbille/Level Design Document V2.pdf"
+        }
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Bisbille est un jeu en multijoueur local dans lequel les joueurs s'affrontent pour être le dernier survivant.\n\nPour être le dernier à survivre, les joueurs doivent envoyer leurs adversaires dans des trous disposés sur chaque niveau.\n\nLes joueurs peuvent se déplacer librement avec le stick gauche de la manette et avec le stick droit, ils disposent d'un cône de visée qui leur permet d'utiliser plusieurs capacités :\n\n- L'attraction : quand un joueur utilise cette capacité, si un adversaire est présent dans le cône de visée, il sera attiré violemment vers le joueur. Cela rend également le joueur attiré intangible, ce qui fait qu'il peut traverser le joueur qui l'a attiré.\n\nCela permet par exemple à un joueur de se placer près d'un trou et d'attirer un joueur dedans sans risquer de se faire emporter avec lui.\n\n- La répulsion : à l'inverse, la répulsion permet de repousser les adversaires qui se trouvent dans le cône de visée du joueur. C'est souvent la façon la moins risquée pour se débarrasser de ses adversaires, mais aussi la plus prévisible."
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/bisbille/bisbille_push_and_pull.gif",
+        "alt": "Démonstration attirer et repousser"
+        },        
+        {
+            "type": "paragraph",
+            "text": "- Le dash : cela permet au joueur de se déplacer très rapidement dans une direction. Pendant le dash, le joueur est également invulnérable, ce qui lui permet d'esquiver des attaques adverses ou de passer au-dessus des trous.\n\nSi un joueur qui dash percute un adversaire, ce dernier sera violemment projeté. Ce qui fait du dash une capacité offensive également."
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/bisbille/bisbille_dash.gif",
+            "alt": "Démonstration du dash"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "Sur ce projet, en tant que Game Designer, j'ai passé la première partie du projet à participer à la définition des mécaniques principales.\n\nC'est-à-dire définir l'attraction, la répulsion, le dash et toutes les caractéristiques qui les composent.\n\nCes caractéristiques comprennent notamment la puissance d'attraction et de répulsion, le temps de rechargement de ces capacités etc.\n\nIl y a également les caractéristiques liées au joueur comme sa vitesse de déplacement ou la taille de son cône de visée.\n\nUne fois tous ces paramètres établis, j'ai passé le reste du projet avec un autre camarade à tester des dizaines de configurations différentes de ces paramètres jusqu'à obtenir un résultat satisfaisant.\n\nL'un des piliers du jeu était d'avoir un gameplay nerveux. Il fallait donc que les choses bougent assez vites et que les compétences aient une forte puissance.\n\nCependant, il fallait quand même dosé tout cela afin que le jeu ne soit pas complètement chaotique.\n\nEn plus des tests pour déterminer les valeurs de ces paramètres atomiques, je m'occupais aussi de tester les différents niveaux afin de faire des retours aux Level Designers.\n\nCela permettait de mettre en lumière les paternes les plus amusants et de corriger les niveaux moins équilibrés ou moins fun."
         }
     ]
 }

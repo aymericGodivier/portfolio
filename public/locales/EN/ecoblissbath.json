@@ -1,51 +1,46 @@
 {
     "title": "Eco Bliss Bath",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "Creation of automated tests with Cypress",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type":"carrousel",
+        "images":[
+            "images/ecoblissbath/eco_home.jpg",
+            "images/ecoblissbath/eco_shop.jpg",
+            "images/ecoblissbath/eco_product.jpg",
+            "images/ecoblissbath/eco_panier.png",
+            "images/ecoblissbath/eco_login.jpg",
+            "images/ecoblissbath/eco_avis.png"
+        ]
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+        "type": "link",
+        "label": "See on GitHub",
+        "url": "https://github.com/aymericGodivier/Automatisation-des-tests"
+        }        
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
-        },
+        "text": "For this project completed during my training, my main task was to automate, using Cypress, tests that had been conducted during a previous testing campaign. These tests included numerous functional tests, such as verifying the functionality of the shopping cart, login, etc. I also automated API tests and performed some security tests related to the Reviews section of the site."
+        },        
         {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
-        },
-        {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
-        },
-        {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "paragraph",
+            "text": "The tests I conducted included simple smoke tests, such as verifying the presence of the Cart button. I also performed End-to-End tests, like simulating an order from login to adding items to the cart."
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "Below, you can see the list of all the test scripts created in Cypress, along with an example of one of the tests in action."
+        },
+        {
+            "type" :"image",
+            "src": "images/ecoblissbath/eco_liste_test.png",
+            "alt": "list of scritps in Cypress"
+        },
+        {
+            "type" :"image",
+            "src": "images/ecoblissbath/eco_test.gif",
+            "alt": "Cypress scripts in action"
         }
     ]
 }

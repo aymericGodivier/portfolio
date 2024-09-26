@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-/*import YouTubeEmbed from './YouTubeEmbed';*/
+import {Carrousel} from './Carrousel';
 import {DownloadButton} from './DownloadButton';
 
 export function ProjectPage() {
@@ -24,7 +24,6 @@ export function ProjectPage() {
                 setError(err.message);
             }
         };
-        console.log(projectId);
         if (language){
             loadProjectData();
         }
@@ -39,31 +38,65 @@ export function ProjectPage() {
         return <p>Chargement...</p>;
     }
 
+    function renderCapsule(capsule) {
+        switch (capsule.type) {
+         
+         case 'image':
+             return <img className='img-solo' key={capsule.alt} src={capsule.src} alt={capsule.alt} />;
+         case 'carrousel':
+            return <Carrousel images={capsule.images}></Carrousel>    
+         case 'youtube':
+            return <iframe 
+             src={`https://www.youtube.com/embed/${capsule.videoId}?rel=0&modestbranding=1`} 
+             title="YouTube video player"  
+             allowFullScreen
+            ></iframe>
+         case 'video':
+             return <video src={capsule.src} controls></video>    
+         default:
+             return null;
+         } 
+     }
+
     return (
         <div className="project-page">
-            <h1>{projectData.title}</h1>
-            <h2>{projectData.subtitle}</h2>
-            {projectData.documents.map((item, index) => {
-                switch (item.type) {
-                    case 'link':
-                        return <a key={index} href={item.url}>{item.label}</a>;
-                    case 'download':
-                        return <DownloadButton key={index} label={item.label} url={item.url} />;
-                    default:
-                        return null;
-                }
-            })}
+            
+                       
+            <div className='capsule'>
+                <h1>{projectData.title}</h1>   
+                <h2>{projectData.subtitle}</h2>
+                <div className='media-container'>
+                    {renderCapsule(projectData.capsule)}
+                    <div className='link-container'>
+                        {projectData.documents.map((item, index) => {
+                            switch (item.type) {
+                                case 'link':
+                                    return <a className='link' key={index} href={item.url}>{item.label}</a>;
+                                case 'download':
+                                    return <DownloadButton key={index} label={item.label} url={item.url} />;
+                                default:
+                                    return null;
+                            }
+                        })}
+                    </div>                    
+                </div> 
+                
+            </div>              
+            
+            
             <div className="project-content">
                 {projectData.content.map((item, index) => {
                     switch (item.type) {
                         case 'paragraph':
-                            return <p key={index}>{item.text}</p>;
+                            return <p style={{ whiteSpace: 'pre-line' }} key={index}>{item.text}</p>;
                         case 'image':
                             return <img key={index} src={item.src} alt={item.alt} />;
                         case 'link':
                             return <a key={index} href={item.url}>{item.label}</a>;
                         case 'download':
                             return <DownloadButton key={index} label={item.label} url={item.url} />;
+                        case 'video':
+                            return <video key={index} src={item.src} controls></video>
                         default:
                             return null;
                     }

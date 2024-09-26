@@ -1,51 +1,46 @@
 {
     "title": "Alice",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "A choose-your-own-adventure style story set in the world of Alice in Wonderland",
     "capsule":{
-        "type":"image",
-        "src":"path/to/image.png"
+        "type": "video",
+        "src": "images/alice/05_gameplay.mp4"
     },
     "documents" : [
-        {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+        
     ],
     "content": [
         {
-        "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+            "type": "paragraph",
+            "text": "Alice is a narrative game inspired by choose-your-own-adventure books, where players must regularly make different choices to progress in the story.\n\nThe adventure takes place in the world of Alice in Wonderland, and the player embodies Alice, who must find her sister who has become lost in Wonderland.\n\nIn the game, players perform actions and navigate by selecting from the choices presented to them.\n\nPlayers will encounter various characters who will present challenges that must be overcome to move forward. These challenges take the form of mini-games where players manipulate text in different ways."
         },
         {
-        "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+            "type": "image",
+            "src": "images/alice/alice_general_view.jpg",
+            "alt": "General view of the game"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
+            "type":"paragraph",
+            "text": "In this project, I primarily programmed all the mechanics in Unreal, including the interface, camera, and movement.\n\nI also worked on the design and programming of the various mini-games. There are three in total, each linked to a character from the story.\n\nThe first mini-game is related to the Cheshire Cat. Given that the Cheshire Cat's main feature is its ability to become invisible, I designed a game based on the principle of invisible ink.\n\nIn this game, the player must use a flame to reveal the words needed to complete the sentence."
         },
         {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+        "type": "video",
+        "src": "images/alice/03_chat.mp4"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text": "The second mini-game is related to the White Rabbit, who is typically associated with a watch and being late.\n\nThis mini-game requires the player to adjust the speed of scrolling words by moving the hand of a clock and then stopping it at the right moment to form words."
+        },
+        {
+            "type": "video",
+            "src": "images/alice/04_lapin.mp4"
+        },
+        {
+            "type":"paragraph",
+            "text":"The third mini-game involves a confrontation with the Jabberwocky. In this game, the player must rearrange the syllables to reconstruct the sentence."
+        },
+        {
+            "type": "video",
+            "src": "images/alice/02_jaberwokie.mp4"
         }
     ]
 }

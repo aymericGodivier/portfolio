@@ -1,51 +1,52 @@
 {
     "title": "Hikikomori",
-    "subtitle" : "Un jeu d'affrontement où vous poussez et attirez vos adversaires",
-    "category": "Versus/Multijoueurs local",
-    "role" : "Game Designer/QA",
+    "subtitle" : "A narrative game about overcoming your fear of the outside world",
     "capsule":{
         "type":"image",
-        "src":"path/to/image.png"
+        "src":"images/hikikomori/titre.png",
+        "alt" :"Game title"
     },
     "documents" : [
         {
-        "type": "download",
-        "label": "Voir le GDD",
-        "url": "path/to/document.pdf"
-        },
-        {
-            "type": "download",
-            "label": "Voir le LDD",
-            "url": "path/to/document.pdf"
-            }
+            "type": "link",
+            "label": "Download the game",
+            "url": "https://emblask.itch.io/hikikomori"
+        }
+        
     ],
     "content": [
         {
         "type": "paragraph",
-        "text": "This is the first paragraph of the project."
+        "text": "Hikikomori is a game in which you play as Tom, a young man with a phobia of the outside world who stays confined to his home all day.\n\nOne day, his cat disappears, and he must summon his courage to go out and find it.\n\nHe will have to go outside, explore his neighborhood, meet his neighbors, and overcome his fear.\n\nThe player has a stress meter that increases when Tom is outside his home. If his stress reaches its maximum, the player is automatically returned to the starting home.\n\nThe player must walk to benches to reduce his stress. He will also need to talk to various NPCs to gradually increase his stress tolerance, allowing him to explore further.\n\nThis game was created by a team during the Global Game Jam in February 2019 with the theme \"what home means to you.\""
         },
         {
         "type": "image",
-        "src": "path/to/image.png",
-        "alt": "Project Image"
+        "src": "images/hikikomori/hikikomori_gameplay.webp",
+        "alt": "Inside view of the house"
         },
         {
-        "type": "youtube",
-        "videoId": "dQw4w9WgXcQ"
+            "type": "image",
+            "src": "images/hikikomori/gameplay.png",
+            "alt": "Stress gameplay "
+        },
+        
+        {
+            "type": "paragraph",
+            "text": "On this project, in addition to participating in the design of the game mechanics, I primarily focused on the level design of the play area. It involved recreating a neighborhood in a city.\n\nI first started by defining a plan for the player's path. This needed to take into account the NPCs that the player must talk to and their positioning. Indeed, depending on their progress in the game, the player may not be able to reach certain NPCs because their stress meter fills up too quickly to reach them.\n\nFor the same reason, I had to think about the placement and spacing between each bench to ensure the player could not skip essential segments of the game.\n\nOnce the plan was complete, I needed to consider the buildings necessary to create the impression of being in a neighborhood of a city.\n\nI then needed 3D models of these buildings. Given the limited time we had, I chose to use Asset Forge by Kenney to combine basic assets to create the models I needed.  "
         },
         {
-        "type": "download",
-        "label": "Download PDF",
-        "url": "path/to/document.pdf"
-        },
-        {
-        "type": "link",
-        "label": "Visit Website",
-        "url": "https://example.com"
+            "type": "image",
+            "src": "images/hikikomori/asset_forge_exemple.png",
+            "alt": "Using Asset Forge"
         },
         {
             "type": "paragraph",
-            "text": "It's the second paragraph."
+            "text":"I then took care of integrating all these models into the game scene to create the final environment:"
+        },
+        {
+            "type": "image",
+            "src": "images/hikikomori/level.png",
+            "alt": "View of the level"
         }
     ]
 }
