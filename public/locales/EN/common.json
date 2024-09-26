@@ -5,14 +5,13 @@
         "home": "Projects",
         "about": "About",
         "translate":{
-            "english": "English",
-            "french" : "French"
+            "english": "EN",
+            "french" : "FR"
         }
     }
 },
 "footer":{
     "credits":"This website has been realised by Aymeric Godivier",
-    "iconeCredits1": "Uk flag icons created by riajulislam - Flaticon",
-    "iconeCredits2": "France icons created by Freepik - Flaticon"
+    "legal" : "Mentions légales"
 }
 }
