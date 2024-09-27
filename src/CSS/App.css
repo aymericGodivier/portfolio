@@ -70,11 +70,12 @@ nav{
   margin-left: auto;
   flex-direction: row;
   width: 32vh;
+  margin-right: 3vh;
   li{
     margin-left: 2vh;    
     list-style-type: none;
-    width: fit-content; 
-    min-width: 10vh; 
+    width: fit-content;
+    min-width: 10vh;  
     white-space: nowrap  
   }
   a{
@@ -121,6 +122,25 @@ nav{
     border: 2px solid  #28c1f0;
     
   }
+}
+
+.burger-menu {
+  display: none;
+  background: none;
+  border: none;
+  font-size: 2.5rem;
+  cursor: pointer;
+  color: rgb(232, 230, 227);
+  margin-top: 2vh;
+}
+
+.mobile-menu {
+  display: none;
+  position: absolute;
+  top: 12vh; /* Ajuste selon la hauteur de ton header */
+  right: 0;
+  background-color: #041a57;
+  padding: 1rem;
 }
 
 h1{
@@ -190,7 +210,7 @@ h2{
     margin-left: 3vh;
   }
   select{
-    width: 15vh;
+    width: 11vh;
     height: 3vh;
   }
 }
@@ -396,6 +416,7 @@ h2{
   margin-top: 2vh;
   justify-content: center;
   align-items: center;
+  text-align: center;
   text-decoration: none;
   background-color: #041a57;
   color: rgb(232, 230, 227);
@@ -587,6 +608,39 @@ footer{
       
     }
   }
+
+  .social-links,.translate-section {
+    display: none;
+  }
+  
+  .burger-menu {
+    display: block;
+    margin-top: 0.9vh;
+  }
+  
+  .mobile-menu.open {
+    display: block;
+
+      .social-links,.translate-section{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+      }
+      .social-links{
+        img{
+          margin: 0;
+          margin-bottom: 1vh;
+        }
+      }
+      .translate-section{
+        button{
+          margin-left: 0;
+          margin-bottom: 1vh;
+        }
+      }   
+  }
+
   h2{
     margin-left: 10vh;
   }
@@ -633,7 +687,7 @@ footer{
     }
   }
 
-  .social-links, nav, .translate-section{
+  .social-links, .translate-section{
     flex-direction: column;
   }
 
@@ -646,8 +700,10 @@ footer{
   nav{
     margin-left: 0;
     li{
-      margin-top: 1.5vh;
-      
+      margin-top: 1.5vh;      
+    }
+    .nav-link{
+      margin-left: 1vh;
     }
   }
 
@@ -657,6 +713,39 @@ footer{
       margin-top: 1.5vh;
     }
   }
+
+.social-links,.translate-section {
+  display: none;
+}
+
+.burger-menu {
+  display: block;
+}
+
+.mobile-menu.open {
+  display: block;
+  top: 13vh;
+    .social-links,.translate-section{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+    }
+    .social-links{
+      img{
+        margin: 0;
+        margin-bottom: 1vh;
+      }
+    }
+    .translate-section{
+      button{
+        margin-left: 0;
+        margin-bottom: 1vh;
+      }
+    }   
+}
+
+
 
   h2{
     margin-left: 2vh;

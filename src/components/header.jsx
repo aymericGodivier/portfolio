@@ -4,12 +4,16 @@ import { useTranslation } from 'react-i18next';
 import { useState } from 'react';
 
 export function Header() {
-  const [selectedLanguage, setSelectedLanguage] = useState('fr'); // Par défaut, on met le français
+  const [selectedLanguage, setSelectedLanguage] = useState('fr');
+  const [isMenuOpen, setIsMenuOpen] = useState(false); // État pour le menu burger
 
-  // Fonction pour changer la langue et l'état
   const changeLanguage = (lng) => {
     i18next.changeLanguage(lng);
-    setSelectedLanguage(lng); // Met à jour la langue sélectionnée
+    setSelectedLanguage(lng);
+  };
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen); // Ouvre ou ferme le menu
   };
 
   const { t } = useTranslation('common');
@@ -45,21 +49,56 @@ export function Header() {
       </nav>
 
       <div className='translate-section'>
-        <button
-          onClick={() => changeLanguage('en')}
-          className={selectedLanguage === 'en' ? 'selected' : ''}
-        >
-          <img src='/images/common/united-kingdom.png' alt='UK-flag' />
-          {t('header.nav.translate.english')}
-        </button>
+          <button
+            onClick={() => changeLanguage('en')}
+            className={selectedLanguage === 'en' ? 'selected' : ''}
+          >
+            <img src='/images/common/united-kingdom.png' alt='UK-flag' />
+            {t('header.nav.translate.english')}
+          </button>
 
-        <button
-          onClick={() => changeLanguage('fr')}
-          className={selectedLanguage === 'fr' ? 'selected' : ''}
-        >
-          <img src='/images/common/france.png' alt='french-flag' />
-          {t('header.nav.translate.french')}
-        </button>
+          <button
+            onClick={() => changeLanguage('fr')}
+            className={selectedLanguage === 'fr' ? 'selected' : ''}
+          >
+            <img src='/images/common/france.png' alt='french-flag' />
+            {t('header.nav.translate.french')}
+          </button>
+      </div>
+
+      {/* Bouton burger, visible en mode mobile */}
+      <button className='burger-menu' onClick={toggleMenu}>
+        &#9776; {/* Symbole pour un menu burger */}
+      </button>
+
+      {/* Menu burger, affiché si isMenuOpen est true */}
+      <div className={`mobile-menu ${isMenuOpen ? 'open' : ''}`}>
+        <div className='social-links'>
+          <a href='https://www.linkedin.com/in/aymeric-godivier-5aa763137/'>
+            <img src='/images/common/linkedin.png' alt='linkedin logo' />
+          </a>
+          <a href='https://github.com/aymericGodivier'>
+            <img src='/images/common/github.png' alt='github logo' />
+          </a>
+        </div>
+
+        <div className='translate-section'>
+          <button
+            onClick={() => changeLanguage('en')}
+            className={selectedLanguage === 'en' ? 'selected' : ''}
+          >
+            <img src='/images/common/united-kingdom.png' alt='UK-flag' />
+            {t('header.nav.translate.english')}
+          </button>
+
+          <button
+            onClick={() => changeLanguage('fr')}
+            className={selectedLanguage === 'fr' ? 'selected' : ''}
+          >
+            <img src='/images/common/france.png' alt='french-flag' />
+            {t('header.nav.translate.french')}
+          </button>
+        </div>
       </div>
     </header>
   );
