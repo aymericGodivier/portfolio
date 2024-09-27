@@ -210,7 +210,7 @@ h2{
     margin-left: 3vh;
   }
   select{
-    width: 11vh;
+    width: 13vh;
     height: 3vh;
   }
 }
@@ -261,14 +261,17 @@ h2{
     height: 18vh;
   }
 
-  a{
+  .more-infos{
     text-decoration: none;
+    padding: 0.5vh;
     color: rgb(232, 230, 227);
     font-weight: bold;
+    background-color: #4995fa;
+    border: 2px solid rgb(232, 230, 227);
   }
 
   a:hover{
-   color:#448aff ; 
+   color:#041a57 ; 
   }
 }
 
