@@ -11,6 +11,10 @@
     }
 },
 "footer":{
+    "contact": "Me contacter",
+    "mail": "Votre email : ",
+    "message":"Votre message : ",
+    "send": "Envoyer",
     "credits":"Ce site a été créé par Aymeric Godivier",
     "legal" : "Mentions légales"
 }

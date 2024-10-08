@@ -11,6 +11,10 @@
     }
 },
 "footer":{
+    "contact": "Contact me",
+    "mail": "Your email :",
+    "message":"Your message : ",
+    "send": "Send",
     "credits":"This website has been realised by Aymeric Godivier",
     "legal" : "Legal notice"
 }
